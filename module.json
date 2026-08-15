@@ -27,11 +27,22 @@
           "verified": "5.2.5"
         }
       }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.7.5",
+          "verified": "2.7.5"
+        }
+      }
     ]
   },
   "authors": [
     {
-      "name": "param"
+      "name": "Pablo Ramírez"
     }
   ],
   "url": ""
