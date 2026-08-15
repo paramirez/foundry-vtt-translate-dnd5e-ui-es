@@ -1,7 +1,7 @@
 {
   "id": "translate-dnd5e-ui-es",
   "title": "D&D 5e - UI en español (lang/es.json)",
-  "description": "Traduce la interfaz del sistema dnd5e al español (habilidades, características, atributos, hoja de personaje, ítems, conjuros, estados y diálogos) mediante lang/es.json.",
+  "description": "<p>Traduce la interfaz del sistema dnd5e al español (habilidades, características, atributos, hoja de personaje, ítems, conjuros, estados y diálogos) mediante lang/es.json.</p>",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "13",
@@ -11,7 +11,8 @@
     {
       "lang": "es",
       "name": "Español",
-      "path": "lang/es.json"
+      "path": "lang/es.json",
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -32,18 +33,16 @@
       {
         "id": "babele",
         "type": "module",
-        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-        "compatibility": {
-          "minimum": "2.7.5",
-          "verified": "2.7.5"
-        }
+        "compatibility": {}
       }
     ]
   },
   "authors": [
     {
-      "name": "Pablo Ramírez"
+      "name": "param",
+      "flags": {}
     }
   ],
-  "url": ""
+  "url": "https://github.com/paramirez/foundry-vtt-translate-dnd5e-ui-es",
+  "flags": {}
 }
