@@ -1,0 +1,157 @@
+{
+  "DND5E": {
+    "REGIONBEHAVIORS": {
+      "DIFFICULTTERRAIN": {
+        "FIELDS": {
+          "ignoredDispositions": {
+            "label": "Disposiciones ignoradas",
+            "hint": "Los tokens con estas disposiciones no se verán afectados por este terreno difícil."
+          },
+          "magical": {
+            "label": "Mágico",
+            "hint": "Este terreno difícil lo crea un efecto mágico."
+          },
+          "types": {
+            "label": "Tipos",
+            "hint": "Tipos que mejor describen el origen de este terreno difícil, si los hay."
+          }
+        },
+        "Type": {
+          "All": "Todos los tipos",
+          "Ice": "Hielo resbaladizo",
+          "Magical": "Mágico",
+          "Nonmagical": "No mágico",
+          "Plants": "Plantas o maleza",
+          "Rocks": "Escombros o rocas",
+          "Liquid": "Líquido poco profundo",
+          "Mud": "Barro espeso",
+          "Sand": "Arena movediza",
+          "Slope": "Pendiente pronunciada",
+          "Snow": "Nieve profunda",
+          "Webs": "Telarañas pegajosas"
+        }
+      },
+      "ROTATEAREA": {
+        "Action": {
+          "AddPosition": "Añadir posición",
+          "DeletePosition": "Eliminar posición",
+          "RotateToPosition": "Rotar hasta la posición"
+        },
+        "DirectionMode": {
+          "Clockwise": "En sentido horario",
+          "CounterClockwise": "En sentido antihorario",
+          "Longest": "El más largo",
+          "Shortest": "El más corto"
+        },
+        "FIELDS": {
+          "directionMode": {
+            "label": "Modo de dirección",
+            "hint": "Cómo se decide la dirección de rotación al pasar a la siguiente posición."
+          },
+          "lights": { "ids": { "label": "Luces" } },
+          "positions": { "label": "Posiciones", "element": { "angle": { "label": "Ángulo" } } },
+          "regions": { "ids": { "label": "Regiones" } },
+          "sounds": { "ids": { "label": "Sonidos ambientales" } },
+          "tiles": { "ids": { "label": "Losetas" } },
+          "time": {
+            "mode": {
+              "label": "Modo de velocidad",
+              "hint": "Cómo se determina la velocidad de rotación a partir del tiempo de rotación: igual independientemente de la distancia recorrida (fijo) o dependiente de la distancia rotada (variable)."
+            },
+            "value": {
+              "label": "Tiempo de rotación",
+              "hint": "Tiempo en milisegundos para rotar hasta la siguiente posición (en modo fijo) o para rotar 90° (en modo variable)."
+            }
+          },
+          "walls": {
+            "ids": { "label": "Muros" },
+            "link": {
+              "label": "Vincular muros",
+              "hint": "Rota cualquier segmento de muro unido a los especificados."
+            }
+          }
+        },
+        "SpeedMode": {
+          "Fixed": "Fijo (tiempo total de rotación)",
+          "Variable": "Variable (tiempo para rotar 90°)"
+        },
+        "Warning": { "RecursiveRegion": "No se puede rotar la misma región que contiene el comportamiento." }
+      }
+    },
+    "SOURCE": {
+      "Action": { "Configure": "Configurar origen" },
+      "FIELDS": {
+        "source": {
+          "label": "Origen",
+          "book": { "label": "Libro" },
+          "custom": { "label": "Etiqueta personalizada" },
+          "license": { "label": "Licencia" },
+          "page": { "label": "Página/Sección" },
+          "revision": { "label": "Revisión" },
+          "rules": { "label": "Versión de reglas" },
+          "uuid": { "label": "Origen original" }
+        }
+      },
+      "Display": {
+        "Full": "{book} {page}",
+        "Page": "pág. {page}"
+      }
+    },
+    "SourceItem": {
+      "Label": "Ítem de origen",
+      "LockedHint": "El origen de este ítem lo determina automáticamente el ítem que lo otorga y no puede cambiarse."
+    },
+    "Species": {
+      "Label": "Especie",
+      "Add": "Añadir especie",
+      "AddLegacy": "Añadir raza",
+      "Features": "Rasgos de especie",
+      "FeaturesLegacy": "Rasgos raciales",
+      "Name": "Nombre de la especie"
+    },
+    "SPELL": {
+      "Embed": {
+        "CastingTimeTrigger": "{castingTime}, que haces {trigger}",
+        "Tag": {
+          "Cantrip": "Truco de {school}",
+          "CantripLegacy": "Truco de {school}",
+          "Classes": "{levelSchool} ({classes})",
+          "Leveled": "Nivel {level} de {school}",
+          "LeveledLegacy": "Conjuro de {levelOrdinal} nivel de {school}"
+        }
+      }
+    },
+    "SKILL": {
+      "SECTIONS": {
+        "Details": "Detalles de {label}",
+        "Bonuses": {
+          "Label": "Bonificadores de {label}",
+          "Hint": "Estos bonificadores se aplican a las puntuaciones pasivas y pruebas hechas con {label}."
+        },
+        "Global": {
+          "Label": "Bonificadores globales",
+          "Hint": "Estos bonificadores se aplican a las pruebas hechas con cualquier habilidad."
+        }
+      }
+    },
+    "SheetClass": {
+      "Character": "Hoja de personaje de D&D 5e",
+      "ClassSummary": "Hoja de resumen de clase de D&D 5e",
+      "Container": "Hoja de contenedor de D&D 5e",
+      "DifficultTerrain": "Hoja de terreno difícil de D&D 5e",
+      "Encounter": "Hoja de encuentro de D&D 5e",
+      "Group": "Hoja de grupo de D&D 5e",
+      "Item": "Hoja de ítem de D&D 5e",
+      "JournalEntry": "Hoja de entrada de diario de D&D 5e",
+      "JournalEntryLegacy": "Hoja de entrada de diario heredada de D&D 5e",
+      "MapLocation": "Hoja de ubicación de mapa de D&D 5e",
+      "NPC": "Hoja de PNJ de D&D 5e",
+      "RollTable": "Hoja de tabla de tiradas de D&D 5e",
+      "RotateArea": "Hoja de área rotatoria de D&D 5e",
+      "Rule": "Hoja de regla de D&D 5e",
+      "SpellList": "Hoja de lista de conjuros de D&D 5e",
+      "Token": "Hoja de token de D&D 5e",
+      "Vehicle": "Hoja de vehículo de D&D 5e"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "DND5E": {
+    "SUMMON": {
+      "Title": "Invocar",
+      "Hint": "Invoca una criatura nueva a la escena.",
+      "Action": {
+        "Place": "Colocar invocación",
+        "Summon": "Invocar",
+        "View": "Ver invocación"
+      },
+      "FIELDS": {
+        "bonuses": {
+          "ac": {
+            "label": "Bonificador de Clase de Armadura",
+            "hint": "Bonificador a la Clase de Armadura fijada en la criatura invocada, sumado a lo especificado en su perfil."
+          },
+          "attackDamage": {
+            "label": "Bonificador de daño de ataque",
+            "hint": "Daño adicional hecho por los ataques de la criatura."
+          },
+          "hd": {
+            "label": "Bonificador de Dados de Golpe",
+            "hint": "Dados de Golpe adicionales añadidos a la criatura además de los derivados de la fórmula de PG de su perfil. Solo puede usarse al invocar actores PNJ."
+          },
+          "healing": {
+            "label": "Bonificador de curación",
+            "hint": "Curación adicional proporcionada por las habilidades de curación."
+          },
+          "hp": {
+            "label": "Bonificador de Puntos de Golpe",
+            "hint": "Puntos de Golpe adicionales añadidos a la criatura además de los especificados en su perfil."
+          },
+          "saveDamage": {
+            "label": "Bonificador de daño de salvación",
+            "hint": "Daño adicional hecho por las habilidades de la criatura que requieren tiradas de salvación."
+          }
+        },
+        "creatureSizes": {
+          "label": "Tamaños de criatura",
+          "hint": "La criatura invocada y su token cambiarán a este tamaño. Si se selecciona más de un tamaño, el jugador podrá elegir entre ellos al invocar."
+        },
+        "creatureTypes": {
+          "label": "Tipos de criatura",
+          "hint": "La criatura invocada cambiará a este tipo. Si se selecciona más de un tipo, el jugador podrá elegir entre ellos al invocar."
+        },
+        "match": {
+          "ability": {
+            "label": "Igualar característica",
+            "hint": "Característica específica a usar al igualar ataques y CD de salvación."
+          },
+          "attacks": {
+            "label": "Igualar ataques",
+            "hint": "Modificar los valores para acertar de los ataques de la criatura invocada para que coincidan con los del invocador."
+          },
+          "disposition": {
+            "label": "Igualar disposición",
+            "hint": "Modificar la disposición de la criatura invocada para que coincida con la del invocador."
+          },
+          "proficiency": {
+            "label": "Igualar competencia",
+            "hint": "Modificar la competencia de la criatura invocada para que coincida con la del invocador."
+          },
+          "saves": {
+            "label": "Igualar salvaciones",
+            "hint": "Modificar las CD de salvación de las habilidades de la criatura invocada para que coincidan con las del invocador."
+          }
+        },
+        "profiles": {
+          "label": "Perfiles de invocación",
+          "element": {
+            "count": { "label": "Cantidad" },
+            "cr": {
+              "label": "Valor de Desafío",
+              "abbr": "CR",
+              "hint": "CR máximo de la criatura invocada."
+            },
+            "level": {
+              "label": "Límite de nivel",
+              "hint": "Rango de niveles requerido para usar este perfil.",
+              "max": { "label": "Nivel máximo" },
+              "min": { "label": "Nivel mínimo" }
+            },
+            "name": {
+              "label": "Nombre mostrado",
+              "hint": "Nombre del perfil mostrado en el diálogo de uso."
+            },
+            "types": {
+              "label": "Tipos de criatura",
+              "hint": "Lista de tipos de criatura entre los que se puede seleccionar la criatura invocada."
+            },
+            "uuid": { "label": "Criatura vinculada" }
+          }
+        },
+        "summon": {
+          "label": "Detalles de invocación",
+          "identifier": {
+            "label": "Identificador de clase",
+            "hint": "Identificador usado para determinar si debe usarse el nivel de personaje o el de una clase concreta para los límites de nivel de los perfiles."
+          },
+          "mode": {
+            "label": "Modo",
+            "hint": "Define cómo se especifican las criaturas que se van a invocar.",
+            "CR": "Por Valor de Desafío y tipo",
+            "Direct": "Por enlace directo"
+          },
+          "prompt": {
+            "label": "Aviso de invocación",
+            "hint": "¿Debería pedirse al jugador que coloque la invocación? Los jugadores aún podrán invocar desde la tarjeta de chat si el aviso está desactivado."
+          }
+        },
+        "tempHP": {
+          "label": "PG temporales",
+          "hint": "Otorgar PG temporales a la criatura invocada, reemplazando cualquier PG temporal existente."
+        }
+      },
+      "CreatureChanges": {
+        "Label": "Cambios de la criatura",
+        "Hint": "Cambios que se harán a la criatura que se invoca. Cualquier referencia @ usada en las siguientes fórmulas se basará en las estadísticas del invocador. Las estadísticas de las criaturas invocadas se pueden referenciar usando @summon (p. ej. @summon.attributes.hd.max para referenciar el número de Dados de Golpe de la criatura)."
+      },
+      "ItemChanges": {
+        "Label": "Cambios de ítems",
+        "Hint": "Cambios hechos a los ítems de la criatura invocada."
+      },
+      "Profile": {
+        "Label": "Perfil de invocación",
+        "Action": { "Create": "Crear perfil", "Delete": "Eliminar perfil" },
+        "ChallengeRatingLabel": "Valor de Desafío de {cr} o menor",
+        "DropHint": "Suelta aquí la criatura",
+        "Empty": "Haz clic en el botón <i class=\"fas fa-plus\"></i> de arriba para crear un perfil.",
+        "EmptyDrop": "Haz clic en el botón <i class=\"fas fa-plus\"></i> de arriba para crear un perfil o suelta una criatura para invocarla aquí."
+      },
+      "SECTIONS": {
+        "Changes": "Cambios",
+        "Profiles": "Perfiles",
+        "Summoning": "Invocación"
+      },
+      "Warning": {
+        "NoOwnership": "Debes tener propiedad de «{actor}» para poder invocarlo.",
+        "NoProfile": "No se puede encontrar el perfil de invocación {profileId} en «{item}».",
+        "Wildcard": "Debes tener permisos de «Usar el explorador de archivos» para invocar criaturas con arte de comodín."
+      }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "DND5E": {
+    "CALENDAR": {
+      "Action": {
+        "AdvanceTime": "Avanzar {amount}",
+        "OpenCharacterSheet": "Abrir hoja de personaje",
+        "OpenPartySheet": "Abrir hoja de grupo",
+        "ReverseTime": "Retroceder {amount}",
+        "SetDate": "Establecer fecha"
+      },
+      "Component": { "Day": "Día", "Month": "Mes", "Year": "Año" },
+      "Configuration": {
+        "DisabledMessage": "El DM debe activar la interfaz del calendario antes de que los jugadores puedan usarla.",
+        "Hint": "Controla si se muestra el HUD del calendario y cómo funciona.",
+        "Label": "Configurar calendario",
+        "Name": "Calendario",
+        "Preferences": "Preferencias del calendario",
+        "UnavailableMessage": "La interfaz predeterminada del calendario no está disponible porque un módulo la ha desactivado."
+      },
+      "FIELDS": {
+        "calendar": { "label": "Calendario", "hint": "Este calendario se usará para rastrear el tiempo en el juego." },
+        "enabled": { "label": "Activado", "hint": "Permitir que todos los usuarios vean y personalicen la UI del calendario." },
+        "formatters": {
+          "date": { "label": "Formato de fecha" },
+          "time": { "label": "Formato de hora" }
+        },
+        "visible": { "label": "Mostrar el HUD del calendario" }
+      },
+      "Formatters": {
+        "Date": "Formateadores de fecha",
+        "Time": "Formateadores de hora",
+        "ApproximateDate": {
+          "Label": "Fecha aproximada",
+          "EarlySeason": "Principios de {season}",
+          "LateSeason": "Finales de {season}",
+          "MidSeason": "Mediados de {season}"
+        },
+        "ApproximateTime": {
+          "Label": "Hora aproximada",
+          "Afternoon": "Tarde",
+          "Dawn": "Amanecer",
+          "Dusk": "Anochecer",
+          "Evening": "Atardecer",
+          "Midnight": "Medianoche",
+          "Morning": "Mañana",
+          "Night": "Noche",
+          "Noon": "Mediodía",
+          "Sunrise": "Salida del sol",
+          "Sunset": "Puesta del sol"
+        },
+        "HoursMinutes": { "Format": "{H}:{M}", "Label": "Horas y minutos" },
+        "HoursMinutesSeconds": { "Format": "{H}:{M}:{S}", "Label": "Horas, minutos y segundos" },
+        "MonthDay": { "Format": "{B} {D}", "Label": "Mes y día" },
+        "MonthDayYear": { "Format": "{B} {D}, {y}", "Label": "Mes, día y año" }
+      },
+      "Gregorian": "Calendario gregoriano",
+      "Greyhawk": {
+        "Name": "Calendario de Greyhawk",
+        "Day": {
+          "Starday": "Día de la estrella",
+          "Sunday": "Día del sol",
+          "Moonday": "Día de la luna",
+          "Godsday": "Día de los dioses",
+          "Waterday": "Día del agua",
+          "Earthday": "Día de la tierra",
+          "Freeday": "Día libre"
+        },
+        "Festival": {
+          "Needfest": "Fiesta de la necesidad",
+          "Growfest": "Fiesta del crecimiento",
+          "Richfest": "Fiesta de la abundancia",
+          "Brewfest": "Fiesta de la cerveza"
+        },
+        "Formatters": { "MonthDay": "{B} {d}", "MonthDayYear": "{B} {d}, {y}" },
+        "Month": {
+          "Fireseek": "Búsqueda del fuego",
+          "Readying": "Preparación",
+          "Coldeven": "Devenir frío",
+          "Planting": "Siembra",
+          "Flocktime": "Tiempo de rebaños",
+          "Wealsun": "Sol del bienestar",
+          "Reaping": "Cosecha",
+          "Godmonth": "Mes de los dioses",
+          "Harvester": "Cosechador",
+          "Patchwall": "Muro de parches",
+          "Readyreat": "Preparación",
+          "Sunsebb": "Sol de nieve"
+        },
+        "Season": { "Spring": "Primavera", "Summer": "Verano", "Fall": "Otoño", "Winter": "Invierno" }
+      },
+      "Harptos": {
+        "Name": "Calendario de Harptos (Reinos Olvidados)",
+        "Day": {
+          "One": "un día",
+          "Two": "dos días",
+          "Three": "tres días",
+          "Four": "cuatro días",
+          "Five": "cinco días",
+          "Six": "seis días",
+          "Seven": "siete días",
+          "Eight": "ocho días",
+          "Nine": "nueve días",
+          "Ten": "diez días"
+        },
+        "Festival": {
+          "Midwinter": "Medioinvierno",
+          "Greengrass": "Hierba verde",
+          "Midsummer": "Medioverano",
+          "Shieldmeet": "Encuentro de escudos",
+          "Highharvestide": "Alta cosecha",
+          "FeastOfTheMoon": "La fiesta de la luna"
+        },
+        "Formatters": {
+          "DayMonth": "{d} {B}",
+          "DayMonthYear": "{d} {B}, {y} DR",
+          "FestivalDayYear": "{day}, {y} DR"
+        },
+        "Month": {
+          "Hammer": "Martillo",
+          "HammerCommon": "Pleno invierno",
+          "Alturiak": "Alturiak",
+          "AlturiakCommon": "La garra del invierno",
+          "Ches": "Ches",
+          "ChesCommon": "La garra de los atardeceres",
+          "Tarsakh": "Tarsakh",
+          "TarsakhCommon": "La garra de las tormentas",
+          "Mirtul": "Mirtul",
+          "MirtulCommon": "El deshielo",
+          "Kythorn": "Kythorn",
+          "KythornCommon": "El tiempo de las flores",
+          "Flamerule": "Flamerule",
+          "FlameruleCommon": "Marea de verano",
+          "Eleasis": "Eleasis",
+          "EleasisCommon": "Sol alto",
+          "Eleint": "Eleint",
+          "EleintCommon": "El ocaso",
+          "Marpenoth": "Marpenoth",
+          "MarpenothCommon": "Caída de hojas",
+          "Uktar": "Uktar",
+          "UktarCommon": "La putrefacción",
+          "Nightal": "Nightal",
+          "NightalCommon": "El descenso"
+        },
+        "Season": { "Spring": "Primavera", "Summer": "Verano", "Fall": "Otoño", "Winter": "Invierno" }
+      },
+      "Khorvaire": {
+        "Name": "Calendario de Khorvaire (Eberron)",
+        "Day": {
+          "Sul": "Sul",
+          "Mol": "Mol",
+          "Zol": "Zol",
+          "Wir": "Wir",
+          "Zor": "Zor",
+          "Far": "Far",
+          "Sar": "Sar"
+        },
+        "Formatters": { "DayMonth": "{d} {B}", "DayMonthYear": "{d} {B} {y} YK" },
+        "Month": {
+          "Zarantyr": "Zarantyr",
+          "Olarune": "Olarune",
+          "Therendor": "Therendor",
+          "Eyre": "Eyre",
+          "Dravago": "Dravago",
+          "Nymm": "Nymm",
+          "Lharvion": "Lharvion",
+          "Barrakas": "Barrakas",
+          "Rhaan": "Rhaan",
+          "Sypheros": "Sypheros",
+          "Aryth": "Aryth",
+          "Vult": "Vult"
+        },
+        "Season": { "Spring": "Primavera", "Summer": "Verano", "Autumn": "Otoño", "Winter": "Invierno" }
+      }
+    }
+  }
+}

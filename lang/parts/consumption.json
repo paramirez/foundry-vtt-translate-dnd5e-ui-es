@@ -1,0 +1,91 @@
+{
+  "DND5E": {
+    "CONSUMPTION": {
+      "Action": {
+        "ConsumeResource": "Consumir recurso",
+        "Create": "Crear objetivo de consumo",
+        "Delete": "Eliminar objetivo de consumo",
+        "RefundResource": "Devolver recurso"
+      },
+      "Scaling": {
+        "Amount": "Cantidad",
+        "Automatic": "Automático",
+        "None": "Sin escalado",
+        "SlotLevel": "Nivel de espacio"
+      },
+      "Target": {
+        "ThisItem": "Este ítem",
+        "UnknownItem": "un ítem desconocido"
+      },
+      "Type": {
+        "Action": {
+          "Prompt": "¿Consumir {type}?",
+          "PromptHint": "Gastar {cost} ({available} disponibles)."
+        },
+        "ActivityUses": {
+          "Label": "Usos de la actividad",
+          "PromptDecrease": "¿Consumir un uso de la actividad?",
+          "PromptIncrease": "¿Restaurar un uso de la actividad?",
+          "PromptHintDecrease": "Gastar <strong>{cost}</strong> {use} de esta actividad ({available} {availableUse} disponibles).",
+          "PromptHintIncrease": "Recuperar <strong>{cost}</strong> {use} de esta actividad.",
+          "Warning": "usos en la actividad {activity} del ítem {item}"
+        },
+        "Attribute": {
+          "Label": "Atributo",
+          "NonEmbeddedHint": "Ruta del atributo a consumir (p. ej. attributes.exhaustion, spells.pact.value).",
+          "PromptDecrease": "¿Consumir atributo?",
+          "PromptIncrease": "¿Restaurar atributo?",
+          "PromptHintDecrease": "Reducir <code>{attribute}</code> en <strong>{cost}</strong> (actualmente {current}).",
+          "PromptHintIncrease": "Aumentar <code>{attribute}</code> en <strong>{cost}</strong> (actualmente {current}).",
+          "Warning": "cantidad de {attribute}"
+        },
+        "HitDice": {
+          "Label": "Dados de Golpe",
+          "PromptDecrease": "¿Consumir Dado de Golpe?",
+          "PromptIncrease": "¿Restaurar Dado de Golpe?",
+          "PromptHintDecrease": "Gastar <strong>{cost}</strong> {denomination} {die} ({available} restantes).",
+          "PromptHintIncrease": "Recuperar <strong>{cost}</strong> {denomination} {die}.",
+          "Warning": "{denomination} Dados de Golpe"
+        },
+        "HitDie": { "one": "Dado de Golpe", "other": "Dados de Golpe" },
+        "ItemUses": {
+          "Label": "Usos del ítem",
+          "NonEmbeddedHint": "Identificador del ítem o UUID del ítem en el compendio que se vinculará automáticamente con el ítem correspondiente de la hoja.",
+          "PromptDecrease": "¿Consumir un uso del ítem?",
+          "PromptIncrease": "¿Restaurar un uso del ítem?",
+          "PromptHintDecrease": "Gastar <strong>{cost}</strong> {use} de {item} ({available} {availableUse} disponibles).",
+          "PromptHintIncrease": "Recuperar <strong>{cost}</strong> {use} de {item}.",
+          "Warning": "usos en {name}"
+        },
+        "Material": {
+          "Label": "Material",
+          "NonEmbeddedHint": "Identificador del ítem o UUID del ítem en el compendio que se vinculará automáticamente con el ítem correspondiente de la hoja.",
+          "PromptDecrease": "¿Consumir material?",
+          "PromptIncrease": "¿Restaurar material?",
+          "PromptHintDecrease": "Reducir la cantidad de {item} en <strong>{cost}</strong> ({quantity} restantes).",
+          "PromptHintIncrease": "Aumentar la cantidad de {item} en <strong>{cost}</strong>.",
+          "Warning": "de {name}"
+        },
+        "SpellSlot": { "one": "espacio de nivel {level}", "other": "espacios de nivel {level}" },
+        "SpellSlots": {
+          "Label": "Espacios de conjuro",
+          "PromptDecrease": "¿Consumir espacio de conjuro?",
+          "PromptIncrease": "¿Restaurar espacio de conjuro?",
+          "PromptHintDecrease": "Gastar <strong>{cost}</strong> {slot} ({available} restantes).",
+          "PromptHintIncrease": "Recuperar <strong>{cost}</strong> {slot}.",
+          "Warning": "espacios de nivel {level}"
+        },
+        "Use": { "one": "uso", "other": "usos" }
+      },
+      "Warning": {
+        "MissingAttribute": "No se pudo encontrar el atributo {attribute} configurado para ser consumido por la actividad {activity} del ítem {item}.",
+        "MissingHitDice": "El actor no tiene una clase con un Dado de Golpe de {denomination}.",
+        "MissingItem": "No se pudo encontrar el ítem configurado para ser consumido por la actividad {activity} del ítem {item}.",
+        "MissingSpellSlot": "No hay espacios de nivel {level} disponibles.",
+        "None": "No hay {type} disponibles para gastar; se requieren {cost}.",
+        "NotEnough": "No hay suficientes {type} disponibles para gastar; se requieren {cost} y solo hay {available} disponibles.",
+        "WillDestroy": "Consumir {item} gastará su último uso y el ítem será destruido."
+      }
+    }
+  }
+}

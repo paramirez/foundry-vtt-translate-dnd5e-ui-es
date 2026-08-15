@@ -1,0 +1,271 @@
+{
+  "DND5E": {
+    "TRANSFORM": {
+      "Title": "Transformar",
+      "Hint": "Cambia un actor usando las estadísticas de otro.",
+      "Action": {
+        "Restore": "Restaurar transformación",
+        "Transform": "Transformar"
+      },
+      "Dialog": { "Title": "Configurar transformación" },
+      "FIELDS": {
+        "profiles": {
+          "label": "Perfiles de transformación",
+          "element": {
+            "cr": {
+              "label": "Valor de Desafío",
+              "abbr": "CR",
+              "hint": "CR máximo de la criatura de origen."
+            },
+            "level": {
+              "label": "Límite de nivel",
+              "hint": "Rango de niveles requerido para usar este perfil.",
+              "max": { "label": "Nivel máximo" },
+              "min": { "label": "Nivel mínimo" }
+            },
+            "movement": {
+              "label": "Tipos de movimiento restringidos",
+              "hint": "Tipos de movimiento no permitidos en las criaturas de origen."
+            },
+            "name": {
+              "label": "Nombre mostrado",
+              "hint": "Nombre del perfil mostrado en el diálogo de uso."
+            },
+            "sizes": {
+              "label": "Tamaños de criatura",
+              "hint": "Lista de tamaños de criatura entre los que se puede seleccionar la criatura de origen."
+            },
+            "types": {
+              "label": "Tipos de criatura",
+              "hint": "Lista de tipos de criatura entre los que se puede seleccionar la criatura de origen."
+            },
+            "uuid": { "label": "Actor vinculado" }
+          }
+        },
+        "transform": {
+          "label": "Detalles de transformación",
+          "customize": {
+            "label": "Personalizar",
+            "hint": "Usar ajustes de transformación personalizados en lugar de los predeterminados del ajuste seleccionado."
+          },
+          "identifier": {
+            "label": "Identificador de clase",
+            "hint": "Identificador usado para determinar si debe usarse el nivel de personaje o el de una clase concreta para los límites de nivel de los perfiles."
+          },
+          "mode": {
+            "label": "Modo",
+            "hint": "Define cómo se seleccionan las criaturas de origen de la transformación.",
+            "CR": "Por Valor de Desafío",
+            "Direct": "Por enlace directo"
+          },
+          "preset": { "label": "Ajuste" }
+        }
+      },
+      "Preset": {
+        "Label": "Ajustes",
+        "Default": "Predeterminado",
+        "Appearance": { "Label": "Solo apariencia" },
+        "Polymorph": { "Label": "Polimorfia" },
+        "WildShape": { "Label": "Forma salvaje" }
+      },
+      "Profile": {
+        "Label": "Perfil de transformación",
+        "Action": { "Create": "Crear perfil", "Delete": "Eliminar perfil" },
+        "ChallengeRatingLabel": "Valor de Desafío de {cr} o menor",
+        "DropHint": "Suelta aquí la criatura",
+        "Empty": "Haz clic en el botón <i class=\"fas fa-plus\"></i> de arriba para crear un perfil."
+      },
+      "SECTIONS": {
+        "Profiles": "Perfiles",
+        "Settings": "Ajustes",
+        "Transformation": "Transformación"
+      },
+      "Setting": {
+        "Effects": {
+          "All": {
+            "Label": "Todos los efectos",
+            "Hint": "Conservar todos los efectos, ignorando cualquier otro ajuste de efectos."
+          },
+          "Background": { "Label": "Efectos de trasfondo" },
+          "Class": { "Label": "Efectos de clase" },
+          "Equipment": { "Label": "Efectos de equipo" },
+          "Feature": { "Label": "Efectos de rasgos" },
+          "Origin": {
+            "Label": "Este actor",
+            "Hint": "Conservar cualquier efecto creado directamente en este actor de origen."
+          },
+          "OtherOrigin": {
+            "Label": "Otros actores",
+            "Hint": "Conservar cualquier efecto impuesto por un actor externo."
+          },
+          "Spell": { "Label": "Efectos de conjuros" }
+        },
+        "FIELDS": {
+          "effects": { "label": "Efectos Activos" },
+          "keep": {
+            "label": "Conservar",
+            "hint": "Estos detalles se conservarán del actor de origen."
+          },
+          "merge": {
+            "label": "Combinar",
+            "hint": "Combinar estas competencias, conservando la que tenga el modificador más alto."
+          },
+          "minimumAC": {
+            "label": "Clase de Armadura mínima",
+            "hint": "Fórmula que define la Clase de Armadura de la criatura transformada, si la CA del actor objetivo no es ya más alta."
+          },
+          "other": { "label": "Otras opciones" },
+          "spellLists": {
+            "label": "Listas de conjuros conservadas",
+            "hint": "Los conjuros de estas listas se conservarán si el actor tiene un ítem correspondiente."
+          },
+          "tempFormula": {
+            "label": "Fórmula temporal",
+            "hint": "Fórmula para los PG temporales que se añadirán al transformarse."
+          },
+          "transformTokens": { "label": "Transformar tokens" }
+        },
+        "Keep": {
+          "Biography": { "Label": "Biografía" },
+          "CreatureType": { "Label": "Tipo de criatura" },
+          "Equipment": { "Label": "Equipo" },
+          "Features": { "Label": "Rasgos" },
+          "GearProficiency": { "Label": "Competencia con equipo" },
+          "Health": { "Label": "Puntos de Golpe y Dados de Golpe" },
+          "Languages": { "Label": "Idiomas" },
+          "Mental": {
+            "Label": "Características mentales",
+            "Hint": "Conservar las puntuaciones de Inteligencia, Sabiduría y Carisma."
+          },
+          "Physical": {
+            "Label": "Características físicas",
+            "Hint": "Conservar las puntuaciones de Fuerza, Destreza y Constitución."
+          },
+          "Proficiency": { "Label": "Bonificador por competencia" },
+          "Resistances": { "Label": "Resistencias a daño" },
+          "Saves": { "Label": "Competencias en salvaciones" },
+          "Self": {
+            "Label": "Uno mismo",
+            "Hint": "Solo cambiar el retrato y el arte del token; los demás ajustes se ignorarán."
+          },
+          "Skills": { "Label": "Competencias en habilidades" },
+          "Spells": { "Label": "Conjuros" },
+          "TempHP": { "Label": "PG temporales" },
+          "Vision": { "Label": "Visión" }
+        },
+        "Merge": {
+          "Saves": { "Label": "Competencias en salvaciones" },
+          "Skills": { "Label": "Competencias en habilidades" }
+        }
+      },
+      "TemporaryClass": "Clase temporal",
+      "Warning": {
+        "NoOwnership": "No tienes permiso para transformar este actor.",
+        "NoPermission": "No se han otorgado permisos de transformación a los jugadores.",
+        "OriginalActor": "No se encontró ningún actor original con el ID «{reference}».",
+        "SourceActor": "No se encontró ningún actor en el que transformarse."
+      }
+    },
+    "TRAVEL": {
+      "Label": "Ritmo de viaje",
+      "Speed": "Velocidad de viaje",
+      "FIELDS": {
+        "pace": { "label": "Ritmo" },
+        "time": {
+          "label": "Horas por día",
+          "hint": "Número de horas viajadas por día usado para convertir la velocidad de viaje en ritmo."
+        }
+      },
+      "Pace": { "Fast": "Rápido", "Normal": "Normal", "Slow": "Lento" },
+      "Per": { "Day": "Por día", "Hour": "Por hora" },
+      "Slowed": {
+        "Group": "El ritmo del grupo se ralentiza porque un miembro tiene su velocidad reducida a la mitad o menos.",
+        "Member": "Este miembro del grupo está ralentizando al resto."
+      },
+      "Type": { "Air": "Aire", "Land": "Tierra", "Water": "Agua" }
+    },
+    "Treasure": {
+      "Categories": {
+        "Any": "Cualquiera",
+        "Arcana": "Arcanos",
+        "Armaments": "Armamento",
+        "Implements": "Implementos",
+        "Individual": "Individual",
+        "None": "Ninguno",
+        "Relics": "Reliquias"
+      },
+      "Configuration": {
+        "Label": "Tesoro",
+        "Title": "Configurar tesoro"
+      }
+    },
+    "UNITS": {
+      "DISTANCE": {
+        "Label": "Unidad de distancia",
+        "Foot": { "Abbreviation": "pies", "Label": "Pies", "Template": "pie" },
+        "Kilometer": { "Abbreviation": "km", "Label": "Kilómetros", "Template": "kilómetro" },
+        "Meter": { "Abbreviation": "m", "Label": "Metros", "Template": "metro" },
+        "Mile": { "Abbreviation": "mi", "Label": "Millas", "Template": "milla" }
+      },
+      "TIME": {
+        "Day": { "Label": "Día" },
+        "Hour": { "Label": "Hora" },
+        "Minute": { "Label": "Minuto" },
+        "Month": { "Label": "Mes" },
+        "Round": {
+          "Label": "Ronda",
+          "Counted": { "narrow": "{number}r", "one": "{number} ronda", "other": "{number} rondas" }
+        },
+        "Second": { "Label": "Segundo" },
+        "Turn": {
+          "Label": "Turno",
+          "Abbreviation": "t",
+          "Counted": { "narrow": "{number}t", "one": "{number} turno", "other": "{number} turnos" }
+        },
+        "Week": { "Label": "Semana" },
+        "Year": { "Label": "Año" }
+      },
+      "TRAVEL": {
+        "Label": "Unidad de viaje",
+        "Kilometer": { "AbbreviationHour": "km/h", "AbbreviationDay": "km/d", "Label": "Kilómetros" },
+        "Mile": { "AbbreviationDay": "mi/d", "AbbreviationHour": "mph", "Label": "Millas" }
+      },
+      "VOLUME": {
+        "Label": "Unidades de volumen",
+        "CubicFoot": {
+          "Label": "Pies cúbicos",
+          "Abbreviation": "pies³",
+          "Counted": {
+            "narrow": { "one": "{number}pies³", "other": "{number}pies³" },
+            "short": { "one": "{number} pies cúb.", "other": "{number} pies cúb." },
+            "long": { "one": "{number} pie cúbico", "other": "{number} pies cúbicos" }
+          }
+        },
+        "Liter": { "Label": "Litros", "Abbreviation": "L" }
+      },
+      "WEIGHT": {
+        "Label": "Unidades de peso",
+        "Kilogram": { "Label": "Kilogramo", "Abbreviation": "kg" },
+        "Megagram": {
+          "Label": "Toneladas",
+          "Abbreviation": "t",
+          "Counted": {
+            "narrow": { "one": "{number}t", "other": "{number}t" },
+            "short": { "one": "{number} t", "other": "{number} t" },
+            "long": { "one": "{number} tonelada", "other": "{number} toneladas" }
+          }
+        },
+        "Pound": { "Label": "Libras", "Abbreviation": "lb" },
+        "Ton": {
+          "Label": "Toneladas",
+          "Abbreviation": "tn",
+          "Counted": {
+            "narrow": { "one": "{number}tn", "other": "{number}tn" },
+            "short": { "one": "{number} tn", "other": "{number} tn" },
+            "long": { "one": "{number} tonelada", "other": "{number} toneladas" }
+          }
+        }
+      }
+    }
+  }
+}

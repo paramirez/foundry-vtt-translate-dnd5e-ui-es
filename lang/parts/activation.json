@@ -1,0 +1,86 @@
+{
+  "DND5E": {
+    "ABILITY": {
+      "Configure": {
+        "CheckLabel": "Prueba de {ability}",
+        "SaveLabel": "Salvación de {ability}",
+        "Title": "Configurar {ability}"
+      },
+      "SECTIONS": {
+        "Bonuses": {
+          "Label": "Bonificadores de {ability}",
+          "Hint": "Estos bonificadores se aplican a las pruebas y salvaciones hechas con {ability}."
+        },
+        "Global": {
+          "Label": "Bonificadores globales",
+          "Hint": "Estos bonificadores se aplican a las pruebas y salvaciones hechas con cualquier característica."
+        },
+        "Score": "Puntuación de {ability}"
+      }
+    },
+    "ACTIVATION": {
+      "FIELDS": {
+        "activation": {
+          "label": "Activación",
+          "condition": {
+            "label": "Condición de activación",
+            "hint": "Condición requerida para activar esta actividad."
+          },
+          "override": {
+            "label": "Anular activación",
+            "hint": "Usa estos valores de activación en lugar de los del ítem al usar esta actividad."
+          },
+          "type": {
+            "label": "Coste de activación",
+            "hint": "Tipo de activación (p. ej. acción, acción legendaria, minutos)."
+          },
+          "value": {
+            "label": "Valor de activación",
+            "hint": "Valor escalar asociado con la activación."
+          }
+        }
+      },
+      "Category": {
+        "Combat": "Combate",
+        "Monster": "Monstruo",
+        "Rest": "Descanso",
+        "Standard": "Estándar",
+        "Time": "Tiempo",
+        "Vehicle": "Vehículo"
+      },
+      "Type": {
+        "Action": { "Header": "Acciones", "Label": "Acción" },
+        "BonusAction": { "Header": "Acciones Adicionales", "Label": "Acción Adicional" },
+        "Crew": {
+          "Counted": { "one": "{number} acción de tripulación", "other": "{number} acciones de tripulación" },
+          "Header": "Acciones de tripulación",
+          "Label": "Acción de tripulación"
+        },
+        "Day": { "Header": "Días", "Label": "Día" },
+        "Encounter": { "Label": "Comienzo del encuentro" },
+        "Hour": { "Header": "Horas", "Label": "Hora" },
+        "Lair": { "Header": "Acciones de guarida", "Label": "Acción de guarida" },
+        "Legendary": {
+          "Counted": { "one": "{number} acción legendaria", "other": "{number} acciones legendarias" },
+          "Header": "Acciones legendarias",
+          "Label": "Acción legendaria"
+        },
+        "LongRest": { "Label": "Final de un Descanso Largo" },
+        "Minute": { "Header": "Minutos", "Label": "Minuto" },
+        "Mythic": {
+          "Counted": { "one": "{number} acción mítica", "other": "{number} acciones míticas" },
+          "Header": "Acciones míticas",
+          "Label": "Acción mítica"
+        },
+        "Reaction": { "Header": "Reacciones", "Label": "Reacción" },
+        "ShortRest": { "Label": "Final de un Descanso Corto" },
+        "TurnEnd": { "Label": "Final del turno" },
+        "TurnStart": { "Label": "Comienzo del turno" }
+      },
+      "Warning": {
+        "NoActions": "No hay {type} disponibles, pero activar esto requiere al menos {required}.",
+        "NotEnoughActions": "No hay suficientes {type} para activar: se requieren {required}, pero solo hay {available} disponibles."
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "DND5E": {
+    "ACTIVITY": {
+      "Action": {
+        "Create": "Crear actividad",
+        "Delete": "Eliminar actividad",
+        "Edit": "Editar actividad"
+      },
+      "Title": { "one": "Actividad", "other": "Actividades" },
+      "FIELDS": {
+        "description": {
+          "label": "Descripción",
+          "chatFlavor": {
+            "label": "Sabor del chat",
+            "hint": "Texto adicional mostrado en el mensaje de activación del chat."
+          }
+        },
+        "effects": {
+          "element": {
+            "level": {
+              "label": "Límite de nivel",
+              "hint": "Rango de niveles requerido para aplicar este efecto.",
+              "max": { "label": "Nivel máximo" },
+              "min": { "label": "Nivel mínimo" }
+            }
+          },
+          "label": "Efectos aplicados"
+        },
+        "img": { "label": "Icono" },
+        "name": { "label": "Nombre" },
+        "visibility": {
+          "identifier": {
+            "hint": "El identificador de la clase a la que se aplican los límites de nivel. Si se deja en blanco, se usa el nivel de personaje.",
+            "label": "Identificador de clase"
+          },
+          "label": "Visibilidad",
+          "level": {
+            "hint": "Rango de niveles requerido para usar esta actividad.",
+            "label": "Límite de nivel",
+            "max": { "label": "Nivel máximo" },
+            "min": { "label": "Nivel mínimo" }
+          },
+          "requireAttunement": {
+            "hint": "La actividad no se podrá usar si el ítem requiere sintonización y no está sintonizado.",
+            "label": "Requerir sintonización"
+          },
+          "requireIdentification": {
+            "hint": "La actividad no se podrá usar si el ítem no está identificado.",
+            "label": "Requerir identificación"
+          },
+          "requireMagic": {
+            "hint": "La actividad no se podrá usar si la magia no está disponible.",
+            "label": "Requerir magia"
+          }
+        }
+      },
+      "SECTIONS": {
+        "Activation": "Activación",
+        "Behavior": "Comportamiento",
+        "Effect": "Efecto",
+        "Identity": "Identidad",
+        "Time": "Tiempo"
+      },
+      "Warning": { "UsageNotAllowed": "Actualmente no es posible usar esta actividad." }
+    },
+    "ACTIVEEFFECT": {
+      "AttributeKeyTooltip": "Para ver una lista de claves comunes, consulta <a href=\"{url}\">la wiki</a>.",
+      "FIELDS": {
+        "statuses": {
+          "label": "Estados",
+          "hint": "Mientras esté afectado por este Efecto Activo, el objetivo se tratará como si tuviera estos estados adicionales."
+        }
+      }
+    }
+  }
+}

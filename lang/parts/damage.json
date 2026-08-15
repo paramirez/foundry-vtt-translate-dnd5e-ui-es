@@ -1,0 +1,125 @@
+{
+  "DND5E": {
+    "DAMAGE": {
+      "All": "Todo el daño",
+      "Title": "Daño",
+      "Hint": "Inflige daño a una criatura sin ataque ni salvación.",
+      "FIELDS": {
+        "damage": {
+          "label": "Daño",
+          "critical": {
+            "allow": {
+              "label": "Permitir crítico",
+              "hint": "¿Debería la criatura poder tirar daño crítico?"
+            },
+            "bonus": {
+              "label": "Daño crítico extra",
+              "hint": "Daño extra aplicado a la primera parte de daño al obtener un crítico."
+            }
+          },
+          "parts": {
+            "label": "Partes de daño",
+            "hint": "Partes de daño individuales para incluir en la tirada.",
+            "FIELDS": {
+              "bonus": {
+                "label": "Bonificador de daño",
+                "hint": "Bonificador añadido a la tirada de daño."
+              },
+              "custom": {
+                "label": "Fórmula de daño personalizada",
+                "enabled": {
+                  "label": "Activar fórmula personalizada",
+                  "hint": "Usar una fórmula personalizada en lugar de los dados por defecto."
+                },
+                "formula": {
+                  "label": "Fórmula de daño",
+                  "hint": "Fórmula de daño personalizada."
+                }
+              },
+              "denomination": {
+                "label": "Denominación del dado",
+                "hint": "Denominación de los dados a tirar."
+              },
+              "number": {
+                "label": "Número de dados",
+                "hint": "Número de dados a tirar."
+              },
+              "scaling": {
+                "label": "Escalado de daño",
+                "abbr": "Escalado",
+                "mode": {
+                  "label": "Modo de escalado",
+                  "abbr": "Modo",
+                  "hint": "Método por el que se calcula el aumento del escalado."
+                },
+                "number": {
+                  "label": "Escalado de dados",
+                  "abbr": "Dados",
+                  "hint": "Número de dados a aumentar por cada paso de escalado. Se aplicará al primer dado que aparezca en la fórmula de daño si hay más de uno."
+                },
+                "formula": {
+                  "label": "Fórmula de escalado",
+                  "hint": "Fórmula de escalado arbitraria que se multiplicará por cada paso y se sumará a la fórmula original."
+                }
+              },
+              "types": {
+                "label": "Tipos de daño",
+                "hint": "Tipo de daño infligido, o varios para que el usuario elija."
+              }
+            }
+          }
+        }
+      },
+      "Part": {
+        "Action": {
+          "Create": "Crear parte de daño",
+          "Delete": "Eliminar parte de daño"
+        }
+      },
+      "PhysicalBypass": {
+        "Description": "{damageTypes} de ataques que no sean {bypassTypes}",
+        "DescriptionShort": "Evadido por fuentes de {type}",
+        "Hint": "Estas propiedades de arma evadirán la resistencia a daño del daño físico.",
+        "Label": "Evasiones físicas"
+      },
+      "Scaling": {
+        "Half": "Cada dos niveles",
+        "HalfCantrip": "Escalado de truco a medias",
+        "None": "Sin escalado",
+        "Whole": "Cada nivel",
+        "WholeCantrip": "Escalado de truco"
+      },
+      "Type": {
+        "Acid": "Ácido",
+        "Bludgeoning": "Contundente",
+        "Cold": "Frío",
+        "Fire": "Fuego",
+        "Force": "Fuerza",
+        "Lightning": "Relámpago",
+        "Necrotic": "Necrótico",
+        "Piercing": "Perforante",
+        "Poison": "Veneno",
+        "Psychic": "Psíquico",
+        "Radiant": "Radiante",
+        "Slashing": "Cortante",
+        "Thunder": "Trueno"
+      }
+    },
+    "DamageApplication": {
+      "Change": {
+        "Modification": "Modificación de {type}",
+        "Immunity": "Inmunidad a {type}",
+        "Resistance": "Resistencia a {type}",
+        "Threshold": "Umbral de daño",
+        "Vulnerability": "Vulnerabilidad a {type}"
+      },
+      "Downgrading": "Reduciendo {source} a Resistencia",
+      "Ignoring": "Ignorando {source}"
+    },
+    "DamageModification": {
+      "Label": "Modificación de daño",
+      "Hint": "Fórmulas para las cantidades que se añadirán al daño tipado aplicado a este actor. Los valores negativos reducirán el daño recibido.",
+      "BypassHint": "Estas propiedades de arma evadirán la modificación de daño del daño físico."
+    }
+  }
+}

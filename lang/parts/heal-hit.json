@@ -1,0 +1,77 @@
+{
+  "DND5E": {
+    "HEAL": {
+      "Title": "Curar",
+      "Hint": "Cura a una criatura",
+      "HealingButton": "Curación",
+      "HealingRoll": "Tirada de curación",
+      "FIELDS": {
+        "healing": {
+          "label": "Curación",
+          "bonus": {
+            "label": "Bonificador de curación",
+            "hint": "Bonificador añadido a la tirada de curación."
+          },
+          "custom": {
+            "label": "Fórmula de curación personalizada",
+            "enabled": {
+              "label": "Activar fórmula personalizada",
+              "hint": "¿Debería usarse la fórmula personalizada en lugar de los dados por defecto?"
+            },
+            "formula": {
+              "label": "Fórmula de curación",
+              "hint": "Fórmula de curación personalizada."
+            }
+          },
+          "denomination": {
+            "label": "Denominación del dado",
+            "hint": "Denominación de los dados a tirar."
+          },
+          "number": {
+            "label": "Número de dados",
+            "hint": "Número de dados a tirar."
+          },
+          "scaling": {
+            "label": "Escalado de curación",
+            "mode": {
+              "label": "Modo de escalado",
+              "hint": "Método por el que se calcula el aumento del escalado."
+            },
+            "number": {
+              "label": "Escalado de dados",
+              "hint": "Número de dados a aumentar por cada paso de escalado. Se aplicará al primer dado que aparezca en la fórmula de curación si hay más de uno."
+            },
+            "formula": {
+              "label": "Fórmula de escalado",
+              "hint": "Fórmula de escalado arbitraria que se multiplicará por cada paso y se sumará a la fórmula original."
+            }
+          },
+          "types": {
+            "label": "Tipos de curación",
+            "hint": "Tipo de curación infligida, o varios para que el usuario elija."
+          }
+        }
+      },
+      "Type": {
+        "Healing": "Puntos de Golpe",
+        "HealingShort": "Curación",
+        "Maximum": "Puntos de Golpe máximos",
+        "MaximumShort": "PG máx.",
+        "Temporary": "Puntos de Golpe temporales",
+        "TemporaryShort": "PG temp."
+      }
+    },
+    "HITPOINTS": {
+      "Counted": { "one": "{number} Punto de Golpe", "other": "{number} Puntos de Golpe" },
+      "DT": { "abbr": "UD" },
+      "Other": { "label": "Otras opciones" }
+    },
+    "HITDICE": {
+      "Abbreviation": "DG",
+      "Action": { "Decrease": "Reducir", "Increase": "Aumentar" },
+      "Available": "{number} disponibles",
+      "Config": "Ajustar Dados de Golpe",
+      "Counted": { "one": "{number} Dado de Golpe", "other": "{number} Dados de Golpe" }
+    }
+  }
+}

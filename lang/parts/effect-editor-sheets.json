@@ -1,0 +1,88 @@
+{
+  "EFFECT": {
+    "DND5E": {
+      "StatusBleeding": "Sangrando",
+      "StatusBloodied": "Ensangrentado",
+      "StatusBurning": "Ardiendo",
+      "StatusBurrowing": "Excavando",
+      "StatusConcentrating": "Concentrado",
+      "StatusCursed": "Maldito",
+      "StatusDead": "Muerto",
+      "StatusDehydration": "Deshidratación",
+      "StatusDodging": "Esquivando",
+      "StatusEncumbered": "Sobrecargado",
+      "StatusEthereal": "Etéreo",
+      "StatusExceedingCarryingCapacity": "Superando la capacidad de carga",
+      "StatusFalling": "Cayendo",
+      "StatusFlying": "Volando",
+      "StatusHalfCover": "Cobertura media",
+      "StatusHeavilyEncumbered": "Muy sobrecargado",
+      "StatusHiding": "Escondido",
+      "StatusHovering": "Flotando",
+      "StatusMalnutrition": "Malnutrición",
+      "StatusMarked": "Marcado",
+      "StatusSilenced": "Silenciado",
+      "StatusSleeping": "Dormido",
+      "StatusStable": "Estable",
+      "StatusSuffocation": "Asfixia",
+      "StatusSurprised": "Sorprendido",
+      "StatusThreeQuartersCover": "Cobertura de tres cuartos",
+      "StatusTotalCover": "Cobertura total",
+      "StatusTransformed": "Transformado"
+    }
+  },
+  "EDITOR": {
+    "DND5E": {
+      "Inline": {
+        "ApplyStatus": "Aplicar estado a los tokens seleccionados",
+        "AttackExtended": "<em>{type}</em>: {parts}",
+        "AttackLong": "{formula} para acertar",
+        "AttackShort": "{formula}",
+        "AwardEach": "{award} cada uno",
+        "CheckShort": "{check}",
+        "CheckLong": "prueba de {check}",
+        "CheckUsing": "{check} usando {tool}",
+        "DamageExtended": "<em>Golpe:</em> {damage} de daño",
+        "DamageDouble": "{first} más {second}",
+        "DamageShort": "{formula} {type}",
+        "DamageLong": "{average} <span class=\"formula-group\">({formula})</span> {type}",
+        "DC": "CD {dc} {check}",
+        "DCPassiveShort": "CD {dc} de {check} pasiva",
+        "DCPassiveLong": "puntuación pasiva de {check} de {dc} o más",
+        "ItemActivity": "{item} ({activity})",
+        "NoActorWarning": "No se encontró ningún actor seleccionado o asignado para ejecutar esta tirada.",
+        "PassiveShort": "{check} pasiva",
+        "PassiveLong": "puntuación pasiva de {check}",
+        "RequestRoll": "Solicitar tirada",
+        "RollRequest": "Solicitud de tirada",
+        "SaveShort": "{save}",
+        "SaveLong": "tirada de salvación de {save}",
+        "SpecificCheck": "{ability} ({type})",
+        "Warning": {
+          "NoActivityOnItem": "{item} de {actor} no tiene una Actividad con el nombre {activity}.",
+          "NoActor": "No se encontró ningún actor seleccionado o asignado para ejecutar esta tirada.",
+          "NoItemOnActor": "{actor} no tiene un Ítem con el nombre {item}."
+        }
+      }
+    }
+  },
+  "SHEETS": {
+    "DND5E": {
+      "THEME": {
+        "Label": "Tema",
+        "Automatic": "Automático",
+        "Dark": "Modo oscuro",
+        "Light": "Modo claro"
+      }
+    }
+  },
+  "TYPES": {
+    "JournalEntryPage": {
+      "class": "Resumen de clase",
+      "map": "Ubicación del mapa",
+      "rule": "Regla",
+      "spells": "Lista de conjuros",
+      "subclass": "Resumen de subclase"
+    }
+  }
+}

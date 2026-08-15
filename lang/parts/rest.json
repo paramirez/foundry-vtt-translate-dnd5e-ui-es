@@ -1,0 +1,65 @@
+{
+  "DND5E": {
+    "REST": {
+      "Configuration": "Configuración de descanso",
+      "Label": "Descanso",
+      "HitDice": {
+        "AutoSpend": {
+          "Hint": "Gastar Dados de Golpe automáticamente hasta que se agoten o la salud esté llena.",
+          "Label": "Gastar DG automáticamente"
+        },
+        "None": "No quedan Dados de Golpe para tirar durante este descanso.",
+        "Select": "Seleccionar dados a tirar"
+      },
+      "Long": {
+        "Abbreviation": "DL",
+        "Hint": {
+          "Group": "En un descanso largo, los miembros del grupo recuperarán Puntos de Golpe, Dados de Golpe, recursos de clase, cargas de ítems de uso limitado y espacios de conjuro.",
+          "GroupLegacy": "En un descanso largo, los miembros del grupo recuperarán Puntos de Golpe, la mitad de sus Dados de Golpe máximos, recursos de clase, cargas de ítems de uso limitado y espacios de conjuro.",
+          "Normal": "En un descanso largo recuperarás Puntos de Golpe, Dados de Golpe, recursos de clase, cargas de ítems de uso limitado y espacios de conjuro.",
+          "NormalLegacy": "En un descanso largo recuperarás Puntos de Golpe, la mitad de tus Dados de Golpe máximos, recursos de clase, cargas de ítems de uso limitado y espacios de conjuro."
+        },
+        "Label": "Descanso Largo",
+        "LabelShort": "D. Largo",
+        "Recovery": "Se recupera tras un Descanso Largo",
+        "Result": {
+          "Full": "{name} realiza un descanso largo y recupera {health} y {dice}.",
+          "HitDice": "{name} realiza un descanso largo y recupera {dice}.",
+          "HitPoints": "{name} realiza un descanso largo y recupera {health}.",
+          "Short": "{name} realiza un descanso largo."
+        }
+      },
+      "NewDay": {
+        "Hint": "Recupera las habilidades de uso limitado que se recargan al anochecer, al amanecer o en un nuevo día.",
+        "Label": "Nuevo día"
+      },
+      "RecoverTempHP": { "Label": "Quitar PG temporales" },
+      "RecoverTempMaxHP": {
+        "Hint": "Elimina cualquier ajuste al máximo de Puntos de Golpe de un personaje.",
+        "Label": "Recuperar PG máximos"
+      },
+      "Request": {
+        "AutoRest": {
+          "Hint": "Realizar el descanso automáticamente para los actores del grupo seleccionados, en lugar de enviar una solicitud de descanso a los jugadores.",
+          "Label": "Descanso automático"
+        },
+        "Label": "Solicitud de descanso"
+      },
+      "Short": {
+        "Abbreviation": "DC",
+        "Hint": {
+          "Group": "En un descanso corto, los miembros del grupo pueden gastar Dados de Golpe y recuperarán usos de ítems.",
+          "Normal": "En un descanso corto puedes gastar los Dados de Golpe restantes y recuperar usos de ítems."
+        },
+        "Label": "Descanso Corto",
+        "LabelShort": "D. Corto",
+        "Recovery": "Se recupera tras un Descanso Corto",
+        "Result": {
+          "Full": "{name} realiza un descanso corto gastando {dice} para recuperar {health}.",
+          "Short": "{name} realiza un descanso corto."
+        }
+      },
+      "Warning": { "OnlyByRequest": "Los descansos solo pueden realizarse a petición del GM." }
+    }
+  }
+}

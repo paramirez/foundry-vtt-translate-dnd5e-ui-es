@@ -1,0 +1,55 @@
+{
+  "DND5E": {
+    "CONSUMABLE": {
+      "Category": { "Poison": "Veneno" },
+      "Type": {
+        "Ammunition": {
+          "Label": "Munición",
+          "Arrow": "Flecha",
+          "Bolt": "Virote",
+          "BulletFirearm": "Bala, arma de fuego",
+          "BulletSling": "Bala, honda",
+          "EnergyCell": "Celda de energía",
+          "Needle": "Aguja"
+        },
+        "Food": { "Label": "Comida" },
+        "Poison": {
+          "Label": "Veneno",
+          "Contact": "Contacto",
+          "Ingested": "Ingestión",
+          "Inhaled": "Inhalación",
+          "Injury": "Herida"
+        },
+        "Potion": { "Label": "Poción" },
+        "Rod": { "Label": "Vara" },
+        "Scroll": { "Label": "Pergamino" },
+        "Trinket": { "Label": "Bagatela" },
+        "Wand": { "Label": "Varita" },
+        "Wondrous": { "Label": "Objeto maravilloso" }
+      },
+      "FIELDS": {
+        "damage": {
+          "label": "Daño de munición",
+          "replace": {
+            "label": "Reemplazar el daño del arma",
+            "hint": "Reemplazar el daño base del arma con este daño en lugar de aumentarlo."
+          }
+        },
+        "magicalBonus": { "label": "Bonificador mágico" },
+        "properties": { "label": "Propiedades del consumible" },
+        "uses": {
+          "autoDestroy": {
+            "label": "Destruir al vaciarse",
+            "hint": "Reducir la cantidad del ítem en 1 cada vez que se gasten todos sus usos limitados."
+          }
+        }
+      }
+    },
+    "CONDITIONS": {
+      "RiderConditions": {
+        "label": "Estados separados",
+        "hint": "Cuando se aplique este Efecto Activo, estos estados adicionales se aplicarán por separado."
+      }
+    }
+  }
+}

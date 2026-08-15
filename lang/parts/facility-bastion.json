@@ -1,0 +1,210 @@
+{
+  "DND5E": {
+    "FACILITY": {
+      "Description": "Descripción",
+      "Goods": "Bienes",
+      "Occupants": "Ocupantes",
+      "Progress": "Progreso",
+      "Properties": "Propiedades",
+      "Squares": "{squares} casillas",
+      "NoDefenders": "El bastión está sin defender.",
+      "Action": {
+        "DeleteDefender": "Eliminar defensor",
+        "DeleteOccupant": "Eliminar ocupante",
+        "RemoveCraft": "Quitar fabricación"
+      },
+      "AvailableFacility": {
+        "basic": { "build": "Construir instalación", "free": "Instalación gratuita" },
+        "special": { "free": "Añadir instalación" }
+      },
+      "Build": { "Unbuilt": "Sin construir" },
+      "Costs": {
+        "Label": "Costes",
+        "Automatic": "Descontar automáticamente",
+        "Days": "{days} días",
+        "Manual": "Marcar como pagado",
+        "Paid": "pagado",
+        "Unpaid": "sin pagar"
+      },
+      "Craft": {
+        "BaseItem": {
+          "Label": "Comprar el ítem base",
+          "Hint": "Si está marcado, el ítem base se comprará a precio completo en lugar de fabricarse."
+        },
+        "Hint": "Los ítems que esta instalación está en proceso de fabricar o cosechar, si los hay."
+      },
+      "FIELDS": {
+        "building": {
+          "built": {
+            "label": "Construida",
+            "hint": "Las instalaciones básicas deben construirse primero antes de poder usarse."
+          }
+        },
+        "defenders": { "max": { "label": "Defensores" } },
+        "disabled": {
+          "label": "Desactivada",
+          "hint": "Las instalaciones desactivadas no pueden recibir órdenes y se reparan al comienzo del siguiente turno."
+        },
+        "enlargeable": {
+          "label": "Puede ampliarse",
+          "hint": "Ciertas instalaciones especiales pueden aumentar su categoría de tamaño por un coste."
+        },
+        "free": {
+          "label": "Instalación gratuita",
+          "hint": "Las instalaciones gratuitas no cuentan para el límite de instalaciones especiales."
+        },
+        "hirelings": { "max": { "label": "Asalariados" } },
+        "level": { "label": "Requisito de nivel" },
+        "order": { "label": "Orden" },
+        "progress": {
+          "max": { "label": "Total" },
+          "order": { "label": "Ejecutando" },
+          "value": { "label": "Actual" }
+        },
+        "size": { "label": "Tamaño" },
+        "trade": {
+          "creatures": { "max": { "label": "Capacidad de criaturas" } },
+          "profit": { "label": "Factor de beneficio" },
+          "stock": {
+            "stocked": {
+              "label": "Abastecida",
+              "hint": "Adecuado para instalaciones que no almacenan un valor variable de mercancías, sino que se consideran abastecidas o vacías."
+            },
+            "value": { "label": "Valor" },
+            "max": { "label": "Máx" }
+          }
+        },
+        "type": {
+          "subtype": { "label": "Tipo" },
+          "value": { "label": "Categoría" }
+        }
+      },
+      "Order": {
+        "Execute": "Ejecutar orden",
+        "Issue": "Dar orden: {order}"
+      },
+      "Orders": {
+        "Label": "Órdenes",
+        "build": { "inf": "Construir", "present": "Construyendo" },
+        "change": { "inf": "Cambiar", "present": "Cambiando" },
+        "craft": { "inf": "Fabricar", "present": "Fabricando" },
+        "empower": { "inf": "Potenciar", "present": "Potenciando" },
+        "enlarge": { "inf": "Ampliar", "present": "Ampliando" },
+        "harvest": { "inf": "Cosechar", "present": "Cosechando" },
+        "maintain": { "inf": "Mantener", "present": "Manteniendo" },
+        "recruit": { "inf": "Reclutar", "present": "Reclutando" },
+        "repair": { "inf": "Reparar", "present": "Reparando" },
+        "research": { "inf": "Investigar", "present": "Investigando" },
+        "trade": { "inf": "Comerciar", "present": "Comerciando" }
+      },
+      "Sizes": { "cramped": "Apretada", "roomy": "Amplia", "vast": "Vasta" },
+      "Trade": {
+        "Buy": { "Supplement": "Comprar" },
+        "Creatures": { "Buy": "Suelta en las casillas superiores los animales que desees comprar y actualiza el coste apropiadamente abajo." },
+        "Price": { "Label": "Precio base", "Hint": "Selecciona qué existencias vender e introduce el precio base arriba." },
+        "Sell": { "Label": "Vender existencias", "Supplement": "Vender" },
+        "Stock": { "Buy": "Comprando", "Sell": "Vendiendo" },
+        "Stocked": {
+          "Label": "Abastecer por completo",
+          "Hint": "Introduce abajo el coste requerido para abastecer por completo esta instalación."
+        }
+      },
+      "Types": {
+        "Basic": {
+          "Label": { "one": "Instalación básica", "other": "Instalaciones básicas" },
+          "Bedroom": "Dormitorio",
+          "DiningRoom": "Comedor",
+          "Parlor": "Salón",
+          "Courtyard": "Patio",
+          "Kitchen": "Cocina",
+          "Storage": "Almacén"
+        },
+        "Special": {
+          "Label": { "one": "Instalación especial", "other": "Instalaciones especiales" },
+          "ArcaneStudy": "Estudio arcano",
+          "Armory": "Armería",
+          "Barrack": "Barracón",
+          "Garden": "Jardín",
+          "Library": "Biblioteca",
+          "Sanctuary": "Santuario",
+          "Smithy": "Herrería",
+          "Storehouse": "Almacén",
+          "Workshop": "Taller",
+          "GamingHall": "Sala de juegos",
+          "Greenhouse": "Invernadero",
+          "Laboratory": "Laboratorio",
+          "Sacristy": "Sacristía",
+          "Scriptorium": "Scriptorium",
+          "Stable": "Caballeriza",
+          "TeleportationCircle": "Círculo de teletransportación",
+          "Theater": "Teatro",
+          "TrainingArea": "Área de entrenamiento",
+          "TrophyRoom": "Sala de trofeos",
+          "Archive": "Archivo",
+          "MeditationChamber": "Cámara de meditación",
+          "Menagerie": "Casa de fieras",
+          "Observatory": "Observatorio",
+          "Pub": "Taberna",
+          "Reliquary": "Relicario",
+          "Demiplane": "Semiplano",
+          "Guildhall": "Casa del gremio",
+          "Sanctum": "Santuario",
+          "WarRoom": "Sala de guerra"
+        }
+      },
+      "Use": {
+        "Description": "Emitió la orden <strong>{order}</strong> a su {link} {facilityType}."
+      }
+    },
+    "Bastion": {
+      "Label": "Bastión",
+      "Action": { "BastionTurn": "Avanzar turno de bastión" },
+      "Attack": {
+        "Title": "Ataque al bastión",
+        "Automatic": "Resolver automáticamente",
+        "Formula": "Fórmula de ataque",
+        "Resolve": "Resolver ataque",
+        "NoActorWarning": "No hay ningún personaje seleccionado como objetivo del ataque. Selecciona un token o abre su hoja de personaje.",
+        "Result": {
+          "Damaged": "{link} resultó dañado en el ataque.",
+          "Deaths": {
+            "one": "¡<strong>{deaths}</strong> defensor fue asesinado en un ataque a su bastión!",
+            "other": "¡<strong>{deaths}</strong> defensores fueron asesinados en un ataque a su bastión!"
+          },
+          "NoDeaths": "¡Repelió un ataque a su bastión sin bajas!",
+          "Undefended": "¡Bastión sin defender atacado!"
+        }
+      },
+      "Button": {
+        "Label": "Mostrar el botón de turno de bastión",
+        "Hint": "Mostrar un botón para avanzar los turnos de bastión en la interfaz principal del juego."
+      },
+      "Configuration": {
+        "Name": "Bastiones",
+        "Label": "Configurar bastiones",
+        "Hint": "Varias opciones de configuración para el sistema de bastiones presentado en la DMG 2024."
+      },
+      "Confirm": "¿Avanzar un turno de bastión?",
+      "Duration": { "Label": "Duración del turno de bastión (días)" },
+      "Enabled": {
+        "Label": "Activar la funcionalidad de bastiones",
+        "Hint": "Cuando está activado, los personajes jugadores tendrán acceso a una nueva pestaña de Bastión en sus hojas de personaje al alcanzar el nivel 5, y podrán construir instalaciones y darles órdenes."
+      },
+      "Gold": {
+        "Claim": "Reclamar ingresos",
+        "Claimed": "reclamado",
+        "Unclaimed": "sin reclamar"
+      },
+      "Summary": {
+        "Gold": "{value} ({claimed})",
+        "NoOrders": "No se emitieron órdenes a instalaciones especiales este turno.",
+        "Order": "{link} completó la orden <strong>{order}</strong>."
+      },
+      "Trade": {
+        "Cancel": "Cancelar comercio pendiente",
+        "Invalid": "Eliminar un comercio pendiente invalidará tu orden de comercio.",
+        "Pending": "Comercio pendiente"
+      }
+    }
+  }
+}

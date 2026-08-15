@@ -1,0 +1,213 @@
+{
+  "DND5E": {
+    "USAGE": { "SECTION": { "Consumption": "Consumo", "Creation": "Creación", "Scaling": "Escalado" } },
+    "USES": {
+      "FIELDS": {
+        "uses": {
+          "label": "Usos",
+          "max": {
+            "label": "Usos máximos",
+            "hint": "Fórmula para el número máximo de usos."
+          },
+          "recovery": {
+            "label": "Recuperación de usos",
+            "hint": "Perfiles de recuperación para los usos de esta actividad.",
+            "FIELDS": {
+              "period": {
+                "label": "Período de recuperación",
+                "hint": "Momento en el que se producirá esta recuperación."
+              },
+              "type": {
+                "label": "Tipo de recuperación",
+                "hint": "Cómo se recuperan los usos."
+              },
+              "formula": {
+                "label": "Fórmula de recuperación",
+                "hint": "Fórmula usada para determinar cuántos usos se recuperan."
+              }
+            }
+          },
+          "spent": {
+            "label": "Usos gastados",
+            "hint": "Número de usos que se han gastado."
+          }
+        }
+      },
+      "Recovery": {
+        "Action": { "Create": "Crear perfil de recuperación", "Delete": "Eliminar perfil de recuperación" },
+        "Combat": "Combate",
+        "Never": "Nunca",
+        "Period": {
+          "Dawn": { "Label": "Amanecer" },
+          "Day": { "Label": "Día" },
+          "Dusk": { "Label": "Anochecer" },
+          "Initiative": { "Label": "Iniciativa" },
+          "LongRest": { "Label": "Descanso Largo", "Abbreviation": "DL" },
+          "ShortRest": { "Label": "Descanso Corto", "Abbreviation": "DC" },
+          "Turn": { "Label": "Cada turno" },
+          "TurnEnd": { "Label": "Final del turno", "Abbreviation": "Fin del turno" },
+          "TurnStart": { "Label": "Comienzo del turno", "Abbreviation": "Inicio del turno" }
+        },
+        "Recharge": {
+          "Label": "Recarga",
+          "Range": "Recarga {range}"
+        },
+        "Special": "Especial",
+        "Time": "Tiempo",
+        "Type": {
+          "Formula": "Fórmula personalizada",
+          "LoseAll": "Perder todos los usos",
+          "RecoverAll": "Recuperar todos los usos"
+        }
+      }
+    },
+    "UTILITY": {
+      "Title": "Usar",
+      "Hint": "Haz una tirada arbitraria o indica que se realizó alguna otra acción no representada por otros tipos de actividad.",
+      "FIELDS": {
+        "roll": {
+          "label": "Tirada",
+          "formula": {
+            "label": "Fórmula de tirada",
+            "hint": "Fórmula para una tirada arbitraria."
+          },
+          "name": {
+            "label": "Etiqueta de tirada",
+            "hint": "Nombre mostrado para el botón de tirada."
+          },
+          "prompt": {
+            "label": "Aviso de tirada",
+            "hint": "Mostrar el diálogo de configuración de tirada al tirar."
+          },
+          "visible": {
+            "label": "Visible para todos",
+            "hint": "Mostrar el botón de tirada en el chat para todos los jugadores."
+          }
+        }
+      }
+    },
+    "VEHICLE": {
+      "Action": {
+        "Create": {
+          "Equipment": "Crear equipo",
+          "Feature": "Crear rasgo",
+          "Weapon": "Crear arma"
+        },
+        "Crew": { "Decrease": "Reducir", "Increase": "Aumentar" },
+        "Drop": {
+          "Animal": "Soltar animal de tiro",
+          "Crew": "Soltar tripulación",
+          "Passengers": "Soltar pasajeros"
+        },
+        "Uncrew": "Quitar tripulación"
+      },
+      "Actions": {
+        "Ordinal": {
+          "one": "{n}.ª acción",
+          "two": "{n}.ª acción",
+          "few": "{n}.ª acción",
+          "other": "{n}.ª acción"
+        }
+      },
+      "Activation": { "Crew": { "label": "Acción de tripulación" } },
+      "Crew": {
+        "Assigned": "Asignados",
+        "Label": "Tripulación",
+        "Passengers": "Pasajeros",
+        "Unassigned": "Sin asignar"
+      },
+      "FIELDS": {
+        "attributes": {
+          "actions": {
+            "label": "Acciones",
+            "max": {
+              "label": "Acciones máximas",
+              "hint": "Acciones realizadas con la tripulación completa"
+            },
+            "spent": { "label": "Acciones gastadas" },
+            "stations": { "label": "Estaciones de acción" },
+            "thresholds": {
+              "label": "Umbrales",
+              "full": { "label": "Tripulación completa" },
+              "mid": { "label": "Tripulación parcial" },
+              "min": { "label": "Tripulación mínima" }
+            }
+          },
+          "capacity": {
+            "label": "Capacidad",
+            "cargo": { "value": { "label": "Carga" } }
+          }
+        },
+        "crew": { "max": { "label": "Tripulación" } },
+        "passengers": { "max": { "label": "Pasajeros" } },
+        "traits": {
+          "beam": { "value": { "label": "Manga" } },
+          "keel": { "value": { "label": "Quilla" } }
+        }
+      },
+      "Mishap": {
+        "label": "Accidente",
+        "Threshold": { "abbr": "UA", "label": "Umbral de accidente" }
+      },
+      "MOUNTABLE": {
+        "FIELDS": {
+          "cover": {
+            "label": "Cobertura",
+            "hint": "Cobertura proporcionada a la tripulación que opera este equipo."
+          },
+          "crew": { "label": "Tripulación" },
+          "hp": {
+            "label": "Puntos de Golpe",
+            "conditions": { "label": "Estados de salud" },
+            "dt": { "label": "Umbral de daño" },
+            "max": { "label": "PG máx." },
+            "value": { "label": "PG actuales" }
+          },
+          "speed": {
+            "conditions": { "label": "Estados de velocidad" },
+            "value": { "label": "Velocidad" }
+          }
+        }
+      },
+      "Option": {
+        "Abilities": "Mostrar características",
+        "Initiative": "Mostrar iniciativa",
+        "Quality": "Mostrar calidad"
+      },
+      "Tabs": {
+        "Cargo": "Carga",
+        "CrewPassengers": "Tripulación y pasajeros"
+      },
+      "Type": {
+        "label": "Tipo de vehículo",
+        "Air": { "label": "Vehículo aéreo" },
+        "Land": { "label": "Vehículo terrestre" },
+        "Space": { "label": "Vehículo espacial" },
+        "Water": { "label": "Vehículo acuático" }
+      }
+    },
+    "WEAPON": {
+      "FIELDS": {
+        "ammunition": { "type": { "label": "Tipo de munición" } },
+        "armor": { "value": { "label": "Clase de Armadura" } },
+        "damage": { "hint": "Dados de daño intrínsecos del arma. El modificador de característica y las partes de daño adicionales se proporcionarán automáticamente al atacar." },
+        "mastery": {
+          "label": "Maestría",
+          "hint": "Habilidad especial del arma desbloqueada para personajes que tengan Maestría con armas o un rasgo relacionado."
+        }
+      },
+      "Mastery": {
+        "Label": "Maestría con armas",
+        "Flavor": "Maestría",
+        "Cleave": "Hender",
+        "Graze": "Rozar",
+        "Nick": "Mellar",
+        "Push": "Empujar",
+        "Sap": "Socavar",
+        "Slow": "Ralentizar",
+        "Topple": "Derribar",
+        "Vex": "Fastidiar"
+      }
+    }
+  }
+}

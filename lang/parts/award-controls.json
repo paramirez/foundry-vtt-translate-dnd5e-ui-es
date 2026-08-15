@@ -1,0 +1,36 @@
+{
+  "DND5E": {
+    "Award": {
+      "Title": "Distribuir recompensa",
+      "Action": "Recompensar",
+      "Distribution": { "Split": "Dividir", "Each": "A cada uno" },
+      "Message": "{name} ha sido recompensado con {award}.",
+      "NoDestinations": "No hay destinos disponibles",
+      "NoPrimaryParty": "No hay un grupo principal configurado; se muestran los personajes asignados a los jugadores.",
+      "NotGMError": "El comando /award solo está disponible para los GMs.",
+      "UnrecognizedWarning": "No se pudo analizar {commands}. El comando /award debe usarse con valores de PX y monedas, como «/award 10po 50px»."
+    },
+    "Controls": {
+      "Hint": "Activa varias pistas de la UI para ciertos controles de ratón y teclado.",
+      "LeftClick": "Clic izquierdo",
+      "LockHint": "Clic central para bloquear",
+      "MiddleClick": "Clic central",
+      "Name": "Activar pistas de control",
+      "Activity": { "FastForwardHint": "<kbd>Mayús</kbd> + <clic-izquierdo> en el ítem para omitir este diálogo" }
+    },
+    "CHATMESSAGE": {
+      "Activities": "Actividades",
+      "Deltas": {
+        "Created": "Ítem creado",
+        "Deleted": "Ítem eliminado",
+        "Recovery": "Recuperación"
+      },
+      "REQUEST": {
+        "Action": { "Handle": "Gestionar solicitud" },
+        "Complete": "Solicitud atendida",
+        "PartyMembers": "Miembros del grupo"
+      },
+      "TURN": { "NoCombatant": "¡El combatiente ya no existe!" }
+    }
+  }
+}

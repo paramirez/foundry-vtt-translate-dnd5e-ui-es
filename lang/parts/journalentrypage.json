@@ -1,0 +1,114 @@
+{
+  "JOURNALENTRYPAGE": {
+    "DND5E": {
+      "EditDescription": "Editar",
+      "TableTOC": "Tabla: {caption}",
+      "Class": {
+        "EquipmentHeader": "Equipo",
+        "EquipmentDescription": "Empiezas con el siguiente equipo, además del equipo otorgado por tu trasfondo:",
+        "ItemHint": "Suelta aquí una clase",
+        "NoValidClass": "No hay una clase válida seleccionada; pulsa el botón de edición para añadir una clase.",
+        "OptionalFeaturesCaption": "Rasgos de clase opcionales",
+        "OptionalFeaturesDescription": "La siguiente sección contiene rasgos de {class} opcionales. Estos rasgos no se otorgan automáticamente, y puedes elegir uno, algunos o todos a discreción de tu DM.",
+        "SpellSlotLevel": "Nivel de espacio",
+        "SpellSlots": "Espacios de conjuro",
+        "SpellSlotsPerSpellLevel": "—Espacios de conjuro por cada nivel de conjuro—",
+        "Style": {
+          "Inferred": "Inferido de la fuente",
+          "Legacy": "Legado",
+          "Modern": "Moderno"
+        },
+        "SubclassHint": "Suelta aquí las subclases",
+        "TableCaption": "El {class}",
+        "TableOptionalCaption": "Rasgos de {class} opcionales",
+        "Traits": {
+          "Caption": "Rasgos centrales de {class}",
+          "Header": "Competencias"
+        },
+        "FIELDS": {
+          "description": {
+            "additionalEquipment": {
+              "label": "Descripción de equipo adicional",
+              "hint": "Texto descriptivo adicional mostrado bajo la sección de equipo inicial."
+            },
+            "additionalHitPoints": {
+              "label": "Descripción de Puntos de Golpe adicionales",
+              "hint": "Texto descriptivo adicional mostrado bajo la sección de Puntos de Golpe generada automáticamente."
+            },
+            "additionalTraits": {
+              "label": "Descripción de competencias adicionales",
+              "hint": "Texto descriptivo adicional mostrado bajo la lista de competencias otorgadas por esta clase."
+            },
+            "subclass": {
+              "label": "Introducción de la subclase",
+              "hint": "Introducción que se mostrará antes de las subclases de esta clase."
+            },
+            "value": {
+              "label": "Introducción",
+              "hint": "Descripción principal de la clase que aparecerá primero."
+            }
+          },
+          "item": { "label": "Clase seleccionada" },
+          "style": {
+            "label": "Estilo",
+            "hint": "Forzar la página a usar formato moderno o legado, en lugar del especificado por la clase."
+          },
+          "subclassHeader": { "label": "Encabezado de subclase" },
+          "subclassItems": { "label": "Subclases" }
+        },
+        "Features": {
+          "DescriptionLegacy": "Como {lowercaseName}, obtienes los siguientes rasgos de clase, que se resumen en la tabla {name}.",
+          "DescriptionModern": "Como {name}, obtienes los siguientes rasgos de clase cuando alcanzas los niveles de {name} especificados. Estos rasgos se enumeran en la tabla Rasgos de {name}.",
+          "Header": "Rasgos de clase",
+          "Name": "Nivel {level}: {name}"
+        },
+        "HitPoints": {
+          "Header": "Puntos de Golpe",
+          "HitDiceLegacy": "<strong>Dados de Golpe:</strong> {dice} por nivel de {class}",
+          "HitDiceModern": "{dice} por nivel de {class}",
+          "Level1": "<strong>Puntos de Golpe en el nivel 1:</strong> {max} + tu modificador por Constitución",
+          "LevelX": "<strong>Puntos de Golpe a niveles superiores:</strong> {dice} (o {average}) + tu modificador por Constitución por cada nivel de {class} después del 1"
+        }
+      },
+      "SpellList": {
+        "DropHint": "Suelta aquí conjuros o carpetas de conjuros para añadirlos a la lista",
+        "Grouping": {
+          "Label": "Modo de agrupación",
+          "Hint": "Controla cómo se agruparán los conjuros por defecto en la lista de conjuros.",
+          "Alphabetical": "Por la primera letra",
+          "Level": "Por nivel",
+          "None": "Sin agrupar",
+          "School": "Por escuela"
+        },
+        "IdentifierHint": "El identificador debe coincidir con el definido en el documento asociado, si procede. Por ejemplo, al crear una lista de conjuros para la clase Mago, el identificador debe ser «wizard».",
+        "Type": {
+          "Label": "Tipo de lista de conjuros",
+          "Other": "Sin categorizar"
+        },
+        "UnlinkedSpells": {
+          "Label": "Conjuros no vinculados",
+          "Add": "Añadir conjuro no vinculado",
+          "Configuration": "Configuración del conjuro",
+          "Edit": "Editar conjuro no vinculado"
+        }
+      },
+      "Subclass": {
+        "ItemHint": "Suelta aquí una subclase",
+        "NoValidSubclass": "No hay una subclase válida seleccionada; pulsa el botón de edición para añadir una subclase.",
+        "FIELDS": {
+          "description": {
+            "value": {
+              "label": "Introducción",
+              "hint": "Descripción de la subclase que aparecerá antes de cualquier rasgo enumerado."
+            }
+          },
+          "item": { "label": "Subclase seleccionada" },
+          "style": {
+            "label": "Estilo",
+            "hint": "Forzar la página a usar formato moderno o legado, en lugar del especificado por la subclase."
+          }
+        }
+      }
+    }
+  }
+}

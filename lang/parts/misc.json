@@ -1,0 +1,214 @@
+{
+  "DND5E": {
+    "CAST": {
+      "Title": "Lanzar",
+      "Hint": "Lanza un conjuro a través de un ítem.",
+      "Action": { "RemoveSpell": "Quitar conjuro" },
+      "Enchantment": { "Name": "Cambios del conjuro" },
+      "SECTIONS": { "Spell": "Conjuro", "Spellbook": "Conjuros adicionales" },
+      "FIELDS": {
+        "spell": {
+          "label": "Detalles de lanzamiento",
+          "ability": {
+            "label": "Característica de lanzamiento",
+            "hint": "Característica para anular la aptitud mágica normal de la criatura."
+          },
+          "challenge": {
+            "attack": {
+              "label": "Bonificador de ataque",
+              "hint": "Bonificador plano para acertar en lugar del bonificador de ataque normal del conjuro."
+            },
+            "save": {
+              "label": "CD de salvación",
+              "hint": "CD plana para usar en lugar de la CD de salvación normal del conjuro."
+            },
+            "override": {
+              "label": "Anular valores",
+              "hint": "Anular el bonificador de ataque y la CD normales del conjuro al lanzarlo."
+            }
+          },
+          "level": {
+            "label": "Nivel de lanzamiento",
+            "hint": "Nivel base para lanzar el conjuro, si es distinto del nivel del conjuro."
+          },
+          "properties": {
+            "label": "Propiedades ignoradas",
+            "hint": "Componentes y etiquetas del conjuro a ignorar al lanzarlo."
+          },
+          "spellbook": {
+            "label": "Mostrar en el libro de conjuros",
+            "hint": "Mostrar el conjuro en la pestaña de Conjuros de la hoja de personaje."
+          },
+          "uuid": { "label": "Conjuro a lanzar" }
+        }
+      }
+    },
+    "CLASS": {
+      "Multiclass": { "Title": "Multiclase" },
+      "FIELDS": {
+        "hd": {
+          "label": "Dado de Golpe",
+          "additional": {
+            "label": "Dados de Golpe adicionales",
+            "hint": "Fórmula para los Dados de Golpe disponibles para esta clase más allá de la cantidad normal."
+          },
+          "spent": { "label": "Dados de Golpe gastados" }
+        },
+        "levels": { "label": "Niveles de clase" },
+        "primaryAbility": {
+          "all": {
+            "label": "Requerir todas",
+            "hint": "Requerir que todas las características principales cumplan el mínimo para poder hacer multiclase."
+          },
+          "value": {
+            "label": "Característica principal",
+            "hint": "Características que más usa esta clase. Se usan para determinar las restricciones de multiclase."
+          }
+        },
+        "properties": { "label": "Propiedades de clase" }
+      }
+    },
+    "CONTAINER": {
+      "Details": "Detalles del contenedor",
+      "FIELDS": {
+        "capacity": {
+          "label": "Capacidad",
+          "count": { "label": "Número de ítems" },
+          "volume": {
+            "label": "Capacidad de volumen",
+            "units": { "label": "Unidades de volumen" },
+            "value": { "label": "Volumen máximo" }
+          },
+          "weight": {
+            "label": "Capacidad de peso",
+            "units": { "label": "Unidades de peso" },
+            "value": { "label": "Peso máximo" }
+          }
+        },
+        "properties": { "label": "Propiedades del contenedor" }
+      }
+    },
+    "AreaOfEffect": {
+      "Label": "Área de efecto",
+      "Description": {
+        "Height": "de alto",
+        "Length": "de largo",
+        "Radius": "de radio",
+        "SizeSimple": "{number}-{unit}",
+        "SizeType": "{number}-{unit}-{type}",
+        "Thickness": "de grosor",
+        "Width": "de ancho"
+      },
+      "Size": {
+        "Label": "Tamaño",
+        "Height": "Altura",
+        "Length": "Longitud",
+        "Radius": "Radio",
+        "Thickness": "Grosor",
+        "Width": "Ancho"
+      }
+    },
+    "CurrencyManager": {
+      "Title": "Gestionar monedas",
+      "Convert": {
+        "Label": "Convertir",
+        "Action": "Convertir todas las monedas",
+        "Hint": "Convierte todas las monedas llevadas a la denominación más alta posible para reducir la cantidad de monedas que lleva el personaje. Cuidado: esta acción no se puede deshacer."
+      },
+      "Error": { "InsufficientFunds": "No se pudo descontar {amount}{denomination} de {name}. Fondos insuficientes." },
+      "Transfer": {
+        "Label": "Transferir",
+        "Action": "Transferir seleccionadas",
+        "All": "Todas",
+        "Half": "La mitad"
+      }
+    },
+    "COMBAT": {
+      "Group": {
+        "ActiveCount": "{current} de {combatants}",
+        "Title": "Grupo {name}"
+      }
+    },
+    "COMBATANT": { "Counted": { "one": "{number} combatiente", "other": "{number} combatientes" } },
+    "ConsumeHint": {
+      "Attribute": "Atributo a consumir (p. ej. currency.gp)",
+      "Item": "UUID del objetivo en el compendio"
+    },
+    "Controls": {
+      "Hint": "Activa varias pistas de la UI para ciertos controles de ratón y teclado.",
+      "LeftClick": "Clic izquierdo",
+      "LockHint": "Clic central para bloquear",
+      "MiddleClick": "Clic central",
+      "Name": "Activar pistas de control",
+      "Activity": { "FastForwardHint": "<kbd>Mayús</kbd> + <clic-izquierdo> en el ítem para omitir este diálogo" }
+    },
+    "EffectType": { "Inactive": "Inactivo", "Passive": "Pasivo", "Temporary": "Temporal", "Unavailable": "No disponible" },
+    "Award": {
+      "Title": "Distribuir recompensa",
+      "Action": "Recompensar",
+      "Distribution": { "Split": "Dividir", "Each": "A cada uno" },
+      "Message": "{name} ha sido recompensado con {award}.",
+      "NoDestinations": "No hay destinos disponibles",
+      "NoPrimaryParty": "No hay un grupo principal configurado; se muestran los personajes asignados a los jugadores.",
+      "NotGMError": "El comando /award solo está disponible para los GMs.",
+      "UnrecognizedWarning": "No se pudo analizar {commands}. El comando /award debe usarse con valores de PX y monedas, como «/award 10po 50px»."
+    },
+    "CompendiumBrowser": {
+      "Title": "Explorador de compendios",
+      "Action": { "Open": "Abrir explorador de compendios" },
+      "Column": {
+        "Icon": "Icono",
+        "Name": "Nombre",
+        "Results": "Resultados",
+        "Source": "Origen"
+      },
+      "Filters": {
+        "Label": "Filtros",
+        "Grouped": "{type} ({group})",
+        "HasDarkvision": "Tiene Visión en la Oscuridad",
+        "HasSpellcasting": "Tiene Lanzamiento de conjuros",
+        "SearchResults": "Resultados de la búsqueda"
+      },
+      "Selection": {
+        "Label": "Seleccionado: {summary}",
+        "Select": "Seleccionar",
+        "Summary": {
+          "Max": "<span class=\"value\">{value}</span> de un máximo de {max}",
+          "Min": "<span class=\"value\">{value}</span> de al menos {min}",
+          "Range": "<span class=\"value\">{value}</span> de {min} a {max}",
+          "Single": "<span class=\"value\">{value}</span> de {max}"
+        },
+        "Warning": {
+          "Document": { "one": "documento", "other": "documentos" },
+          "Max": "Debes seleccionar como máximo {max} {document}; seleccionado: {value}.",
+          "Min": "Debes seleccionar al menos {min} {document}; seleccionado: {value}.",
+          "Range": "Debes seleccionar entre {min} y {max} documentos; seleccionado: {value}.",
+          "Single": "Debes seleccionar {max} {document}; seleccionado: {value}."
+        }
+      },
+      "Sources": {
+        "Name": "Fuentes del explorador de compendios",
+        "Label": "Configurar fuentes",
+        "FilterPackages": "Filtrar paquetes",
+        "Hint": "Configura qué packs de compendios tienen su contenido disponible en el explorador de compendios."
+      },
+      "Tabs": {
+        "Feat": { "other": "Dotes" },
+        "Item": { "other": "Ítems" },
+        "Monster": { "other": "Monstruos" }
+      },
+      "Types": { "Label": "Tipos" },
+      "Locked": "Bloqueado"
+    },
+    "UsesPeriods": { "Charges": "Cargas", "ChargesAbbreviation": "Cargas" },
+    "AttrConcentration": { "Limit": "Límite" },
+    "FLAGS": {
+      "EnhancedDualWielding": {
+        "Name": "Doble empuñadura mejorada",
+        "Hint": "Permitir ataques adicionales como Acción Adicional usando cualquier arma cuerpo a cuerpo sin la propiedad A dos manos."
+      }
+    },
+    "SPELL": { "Embed": { "Tag": { "Ritual": "{levelSchool} (ritual)" } } },
+    "LegendaryResistance": { "LairUses": "{normal}/día, o {lair}/día en la guarida" }
+  }
+}

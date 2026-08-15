@@ -1,0 +1,88 @@
+{
+  "DND5E": {
+    "SPELLCASTING": {
+      "METHODS": {
+        "AtWill": { "label": "A voluntad" },
+        "Innate": { "label": "Lanzamiento de conjuros innato" },
+        "Ritual": { "label": "Solo ritual" },
+        "Spell": {
+          "label": "Lanzamiento de conjuros",
+          "Full": { "label": "Lanzador completo" },
+          "Half": { "label": "Lanzador a medias" },
+          "Third": { "label": "Lanzador de tercios" },
+          "Artificer": { "label": "Artífice" }
+        },
+        "Pact": {
+          "abbr": "Pacto",
+          "label": "Magia de pacto",
+          "Full": { "label": "Magia de pacto" }
+        }
+      },
+      "SLOTS": {
+        "spell0": "Trucos",
+        "spell1": "Nivel 1",
+        "spell2": "Nivel 2",
+        "spell3": "Nivel 3",
+        "spell4": "Nivel 4",
+        "spell5": "Nivel 5",
+        "spell6": "Nivel 6",
+        "spell7": "Nivel 7",
+        "spell8": "Nivel 8",
+        "spell9": "Nivel 9"
+      },
+      "STATES": {
+        "Unprepared": "No preparado",
+        "Prepared": "Preparado",
+        "AlwaysPrepared": "Siempre preparado"
+      },
+      "Unlabeled": "Lanzamiento de conjuros sin etiqueta"
+    },
+    "SpellHeader": {
+      "Formula": "Fórmula",
+      "Range": "Alcance",
+      "Roll": "Tirada",
+      "School": "Escuela",
+      "Target": "Objetivo",
+      "Time": "Tiempo"
+    },
+    "SpellPreparation": {
+      "Label": "Preparación de conjuros",
+      "Formula": "Fórmula de preparación",
+      "Method": "Método de lanzamiento de conjuros"
+    },
+    "StartingEquipment": {
+      "Title": "Equipo inicial",
+      "Action": {
+        "AddEntry": "Añadir entrada",
+        "Configure": "Configurar equipo inicial",
+        "RemoveEntry": "Eliminar entrada"
+      },
+      "Choice": {
+        "Armor": "Elegir armadura",
+        "Focus": "Elegir foco de lanzamiento de conjuros",
+        "Tool": "Elegir herramienta",
+        "Weapon": "Elegir arma"
+      },
+      "ChooseList": "<em>Elige {prefixes}:</em> {choices}",
+      "Currency": "Monedas",
+      "DropHint": "Suelta aquí el ítem para vincularlo",
+      "IfProficient": "Si tienes competencia",
+      "Operator": {
+        "AND": "Todos de…",
+        "OR": "Uno de…"
+      },
+      "Prefixes": "abcdefghijklmnopqrstuvwxyz",
+      "RequireProficiency": "Requerir competencia",
+      "SpecificItem": "Ítem específico",
+      "Warning": {
+        "Depth": "Solo se permiten tres niveles de profundidad en el equipo inicial.",
+        "ItemTypeInvalid": "Los ítems de tipo {type} no se pueden añadir al equipo inicial."
+      },
+      "Wealth": {
+        "Label": "Riqueza inicial",
+        "Hint": "Fórmula en PO que se puede usar en lugar del equipo inicial."
+      }
+    },
+    "Summoning": { "Label": "Invocación" }
+  }
+}

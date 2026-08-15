@@ -1,0 +1,107 @@
+{
+  "DND5E": {
+    "ITEM": {
+      "Category": {
+        "Label": "Categoría",
+        "Physical": "Físico"
+      },
+      "Property": {
+        "Adamantine": "Adamantina",
+        "Ammunition": "Munición",
+        "Concentration": "Concentración",
+        "Finesse": "Sutil",
+        "Firearm": "Arma de fuego",
+        "Focus": "Foco",
+        "Gear": "Equipo",
+        "Heavy": "Pesada",
+        "Light": "Ligera",
+        "Loading": "Carga",
+        "Material": "Material",
+        "Magical": "Mágico",
+        "Reach": "Alcance",
+        "Reload": "Recarga",
+        "Returning": "Retornable",
+        "Ritual": "Ritual",
+        "Sidekick": "Acompañante",
+        "Silvered": "Plateada",
+        "Somatic": "Somático",
+        "Special": "Especial",
+        "StealthDisadvantage": "Desventaja en Sigilo",
+        "Thrown": "Arrojadiza",
+        "Trait": "Rasgo pasivo",
+        "TwoHanded": "A dos manos",
+        "Versatile": "Versátil",
+        "Verbal": "Verbal",
+        "WeightlessContents": "Contenido sin peso"
+      },
+      "SECTIONS": {
+        "Activities": "Actividades",
+        "Advancement": "Progresión",
+        "Contents": "Contenido",
+        "Description": "Descripción",
+        "Details": "Detalles",
+        "Effects": "Efectos"
+      }
+    },
+    "JOURNALENTRY": {
+      "Action": { "ConfigureNavigation": "Configurar navegación" },
+      "Navigation": {
+        "Next": "Siguiente",
+        "Previous": "Anterior",
+        "Title": "Navegación",
+        "Up": "Arriba"
+      }
+    },
+    "LAIR": {
+      "Label": "Guarida",
+      "Action": {
+        "Label": "Acción de guarida",
+        "Initiative": "Conteo de iniciativa de acción de guarida",
+        "Uses": "Usa acción de guarida"
+      },
+      "HasLair": "Tiene guarida",
+      "Inside": "Dentro de la guarida"
+    },
+    "Language": {
+      "All": "Todos los idiomas",
+      "Label": "Idioma",
+      "Category": {
+        "Exotic": "Idiomas exóticos",
+        "Rare": "Idiomas raros",
+        "Standard": "Idiomas estándar"
+      },
+      "Communication": {
+        "Label": "Comunicación a distancia",
+        "Telepathy": "Telepatía"
+      },
+      "Language": {
+        "Aarakocra": "Aarakocra",
+        "Abyssal": "Abisal",
+        "Aquan": "Acuo",
+        "Auran": "Aero",
+        "Celestial": "Celestial",
+        "Common": "Común",
+        "CommonSign": "Lengua de señas común",
+        "DeepSpeech": "Habla profunda",
+        "Draconic": "Dracónico",
+        "Druidic": "Druídico",
+        "Dwarvish": "Enano",
+        "Elvish": "Élfico",
+        "Giant": "Gigante",
+        "Gith": "Gith",
+        "Gnoll": "Gnoll",
+        "Gnomish": "Gnómico",
+        "Goblin": "Goblin",
+        "Halfling": "Mediano",
+        "Ignan": "Ígneo",
+        "Infernal": "Infernal",
+        "Orc": "Orco",
+        "Primordial": "Primordial",
+        "Sylvan": "Silvano",
+        "Terran": "Terráneo",
+        "ThievesCant": "Cantil de ladrones",
+        "Undercommon": "Subcomún"
+      }
+    }
+  }
+}

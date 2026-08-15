@@ -1,0 +1,115 @@
+{
+  "DND5E": {
+    "MOVEMENT": {
+      "Action": { "Configure": "Configurar velocidad de movimiento" },
+      "FIELDS": {
+        "bonus": { "label": "Bonificador de movimiento" },
+        "ignoredDifficultTerrain": { "label": "Terreno difícil ignorado" },
+        "special": { "label": "Movimiento especial" },
+        "speeds": { "label": "Velocidades de movimiento" },
+        "units": { "label": "Unidad" }
+      },
+      "Hover": "Flotar",
+      "HoverSpeed": "{speed} (flotando)",
+      "Speed": "Velocidad de combate",
+      "Type": {
+        "Burrow": "Excavar",
+        "Climb": "Trepar",
+        "Fly": "Volar",
+        "Jump": "Saltar",
+        "Speed": "Velocidad",
+        "Swim": "Nadar",
+        "Walk": "Caminar"
+      }
+    },
+    "ROLL": {
+      "Range": {
+        "Label": "Rango de tirada",
+        "Maximum": "Tirada máxima",
+        "Minimum": "Tirada mínima"
+      },
+      "Section": "Tiradas de {label}",
+      "Status": "Estado"
+    },
+    "RollConfiguration": {
+      "Title": "Configurar tirada",
+      "Configuration": "Configuración",
+      "Rolls": "Tiradas"
+    },
+    "Rule": {
+      "Tooltip": "Información emergente",
+      "Type": {
+        "Label": "Tipo de regla",
+        "Condition": "Estado",
+        "Rule": "Regla"
+      }
+    },
+    "SAVE": {
+      "Title": { "one": "Salvación", "other": "Salvaciones" },
+      "Hint": "Solicita una tirada de salvación con la opción de tirar daño.",
+      "OnSave": "Al salvar",
+      "FIELDS": {
+        "damage": {
+          "label": "Daño de la salvación",
+          "onSave": {
+            "label": "Daño al salvar",
+            "hint": "¿Cuánto daño debe aplicarse al superar la salvación?",
+            "Full": "Daño completo",
+            "Half": "La mitad del daño",
+            "None": "Sin daño"
+          },
+          "parts": {
+            "label": "Partes de daño",
+            "hint": "Partes de daño individuales para incluir en la tirada."
+          }
+        },
+        "effects": {
+          "onSave": {
+            "label": "Aplicar siempre",
+            "hint": "Este efecto siempre se aplicará, incluso si el objetivo supera su tirada de salvación."
+          }
+        },
+        "save": {
+          "label": "Detalles de la salvación",
+          "ability": {
+            "label": "Características de desafío",
+            "hint": "Características que pueden tirarse para intentar salvar."
+          },
+          "dc": {
+            "label": "Clase de Dificultad",
+            "calculation": {
+              "label": "Cálculo de la CD",
+              "hint": "Método o característica usados para calcular la Clase de Dificultad."
+            },
+            "formula": {
+              "label": "Fórmula de la CD",
+              "hint": "Fórmula personalizada o valor fijo para definir la CD de la salvación."
+            },
+            "CustomFormula": "Fórmula personalizada",
+            "DefaultFormula": "8 + @mod + @prof"
+          }
+        }
+      }
+    },
+    "Scroll": {
+      "CreateFrom": "Crear pergamino a partir de {spell}",
+      "CreateScroll": "Crear pergamino",
+      "Details": "Detalles del pergamino",
+      "Explanation": {
+        "Label": "Explicación",
+        "Hint": "Cantidad de las reglas sobre el uso de pergaminos de conjuro a incluir en el pergamino creado.",
+        "Complete": "Completa",
+        "Reference": "Referencia"
+      },
+      "RequiresConcentration": "Requiere Concentración",
+      "SaveDC": "CD de salvación",
+      "Values": "Valores del conjuro"
+    },
+    "SavingThrow": "Tirada de salvación",
+    "SavingThrowDC": "Tirada de salvación de {ability} CD {dc}",
+    "SavingThrowRoll": "Tirar salvación de {ability}",
+    "SavingThrowShort": "Salvación",
+    "SaveDC": "CD {dc} {ability}",
+    "SavePromptTitle": "Tirada de salvación de {ability}"
+  }
+}

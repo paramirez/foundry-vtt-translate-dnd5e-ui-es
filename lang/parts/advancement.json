@@ -1,0 +1,359 @@
+{
+  "DND5E": {
+    "ADVANCEMENT": {
+      "Action": {
+        "Create": "Crear progresión",
+        "Delete": "Eliminar progresión",
+        "Duplicate": "Duplicar progresión",
+        "Edit": "Editar progresión",
+        "View": "Ver progresión"
+      },
+      "Config": {
+        "AnyLevel": "Cualquiera",
+        "Details": "Detalles de progresión"
+      },
+      "Defaults": {
+        "BackgroundFeat": "Dote de trasfondo",
+        "BackgroundFeature": "Rasgo de trasfondo",
+        "BackgroundProficiencies": "Competencias de trasfondo",
+        "ChooseLanguages": "Elegir idiomas"
+      },
+      "Deletion": {
+        "Label": "Eliminar cambios",
+        "Options": "Opciones",
+        "Delete": {
+          "Message": "Eliminar este ítem también eliminará todas las elecciones de progresión hechas para él. Estos cambios se eliminarán de tu personaje siempre que la casilla siguiente esté marcada.",
+          "Title": "Confirmar eliminación"
+        },
+        "LevelDown": {
+          "Message": "Reducir el nivel de esta clase también eliminará todas las elecciones de progresión hechas para ella. Estos cambios se eliminarán de tu personaje siempre que la casilla siguiente esté marcada.",
+          "Title": "Reducir nivel"
+        }
+      },
+      "HitPoints": {
+        "Title": "Puntos de Golpe",
+        "Hint": "Rastrea los Puntos de Golpe del jugador por cada nivel de la clase.",
+        "Average": "Promedio",
+        "MaxAtFirstLevel": "Máximo en el nivel 1: <strong>{max}</strong>",
+        "Options": "Opciones",
+        "Starting": "Puntos de Golpe en el nivel 1",
+        "TakeAverage": "Tomar el promedio",
+        "Action": {
+          "RollClass": "Tirar Puntos de Golpe de {class}",
+          "RollDie": "Tirar {die}"
+        },
+        "Breakdown": {
+          "Average": "Prom.",
+          "Bonus": "Bonificador",
+          "Final": "Final",
+          "Max": "Máx",
+          "Previous": "Prev.",
+          "Roll": "Tirada"
+        },
+        "Warning": {
+          "Empty": "Deben tirarse los Puntos de Golpe o tomarse el valor promedio.",
+          "Invalid": "Los Puntos de Golpe deben ser un número entero válido."
+        }
+      },
+      "ItemChoice": {
+        "Title": "Elegir ítems",
+        "Hint": "Presenta al jugador una elección de ítems (como equipo, rasgos o conjuros) que puede elegir para su personaje en uno o más niveles.",
+        "Choose": "elige {count}",
+        "Chosen": "Elegido: {current} de {max}",
+        "Details": "Detalles de la elección",
+        "DropHint": "Suelta aquí los ítems para añadirlos a la lista que se puede elegir con esta progresión.",
+        "Options": "Opciones",
+        "Replacement": {
+          "None": "Sin reemplazo",
+          "Title": "reemplazar"
+        },
+        "Action": {
+          "SelectGeneric": "Seleccionar ítem",
+          "SelectSpecific": "Seleccionar {type}"
+        },
+        "FIELDS": {
+          "allowDrops": {
+            "label": "Permitir soltar ítems",
+            "hint": "Permitir que los jugadores puedan soltar sus propias elecciones en esta progresión."
+          },
+          "choices": {
+            "label": "Elecciones",
+            "hint": "Especifica cuántas elecciones se permiten en cada nivel.",
+            "FIELDS": {
+              "count": { "label": "Cantidad" },
+              "replacement": { "label": "Permitir reemplazo" }
+            }
+          },
+          "pool": { "label": "Opciones de ítem" },
+          "restriction": {
+            "level": {
+              "Available": "Cualquier nivel disponible",
+              "label": "Nivel de conjuro",
+              "hint": "Solo permitir elecciones de conjuros de este nivel."
+            },
+            "list": {
+              "label": "Listas de conjuros",
+              "hint": "Solo permitir conjuros de estas listas."
+            },
+            "subtype": { "label": "Subtipo" },
+            "type": { "label": "Tipo" }
+          },
+          "type": {
+            "Any": "Cualquier cosa",
+            "label": "Tipo de ítem",
+            "hint": "Restringe qué tipos de ítem pueden elegirse."
+          }
+        },
+        "Warning": {
+          "InvalidType": "Solo se pueden seleccionar ítems de tipo {type} para esta elección.",
+          "MaxSelected": "No se pueden seleccionar más ítems; desmarca ítems antes de seleccionar más.",
+          "NoOriginal": "La elección seleccionada previamente ya no está disponible para reemplazo.",
+          "SpellLevelAvailable": "Solo se pueden elegir conjuros de nivel {level} o inferior para esta progresión.",
+          "SpellLevelSpecific": "Solo se pueden elegir conjuros de nivel {level} para esta progresión.",
+          "SpellList": "Solo se pueden elegir conjuros disponibles en la lista de conjuros de {lists} para esta progresión."
+        }
+      },
+      "ItemGrant": {
+        "Title": "Otorgar ítems",
+        "Hint": "Otorga al personaje ítems (como equipo, rasgos o conjuros) cuando alcanza cierto nivel.",
+        "Details": "Detalles de la concesión",
+        "DropHint": "Suelta aquí los ítems para añadirlos a la lista otorgada por esta progresión.",
+        "FIELDS": {
+          "items": { "label": "Ítems" },
+          "optional": {
+            "label": "Opcional",
+            "hint": "Si toda la progresión está marcada como opcional, los jugadores pueden optar por no recibir cualquiera de los siguientes ítems; de lo contrario, se otorgan todos los ítems no opcionales."
+          }
+        },
+        "Warning": {
+          "Container": "El contenido de los contenedores no se añadirá con los contenedores.",
+          "Duplicate": "Ese ítem ya existe en esta progresión.",
+          "Recursive": "No puedes otorgar un ítem en su propia progresión."
+        }
+      },
+      "Manager": {
+        "Title": {
+          "Default": "Progresión",
+          "LevelIncreased": "Subir de nivel al personaje",
+          "LevelNewClass": "Añadir clase",
+          "ModifyChoices": "Modificar elecciones"
+        },
+        "Steps": "Paso {current} de {total}",
+        "Action": {
+          "Complete": "Completar",
+          "NextStep": "Siguiente",
+          "PreviousStep": "Anterior",
+          "Restart": "Reiniciar"
+        },
+        "ClosePrompt": {
+          "Title": "Detener progresión",
+          "Message": "<p>Si se cancela el proceso de progresión, las elecciones hechas hasta ahora se descartarán y no se harán cambios en el actor.</p>",
+          "Action": {
+            "Continue": "Continuar",
+            "Stop": "Detener progresión"
+          }
+        },
+        "RestartPrompt": {
+          "Title": "Reiniciar elecciones de progresión",
+          "Message": "¿Seguro que quieres deshacer todas las elecciones hechas hasta ahora?"
+        }
+      },
+      "Migration": {
+        "Title": "Migrar progresión",
+        "Hint": "Selecciona cuáles de las siguientes progresiones se añadirán a {name}.",
+        "Selection": "Selección de progresión",
+        "Action": { "Confirm": "Aplicar migraciones" }
+      },
+      "ScaleValue": {
+        "Title": "Valor de escala",
+        "Hint": "Un valor único que cambia a medida que una clase sube de nivel y que está disponible en las fórmulas de tirada (como el dado de artes marciales de un monje).",
+        "Details": "Detalles del valor de escala",
+        "Action": { "CopyFormula": "Copiar fórmula" },
+        "FIELDS": {
+          "distance": { "units": { "label": "Unidades de distancia" } },
+          "identifier": { "label": "Identificador" },
+          "scale": { "label": "Escala" },
+          "type": { "label": "Tipo de escala" }
+        },
+        "Type": {
+          "CR": {
+            "Label": "Valor de Desafío",
+            "Hint": "Úsalo para representar Valores de Desafío de criaturas para rasgos como Forma Salvaje.",
+            "FIELDS": { "value": { "label": "CR" } }
+          },
+          "Dice": {
+            "Label": "Dados",
+            "Hint": "Úsalo para valores de dados como la inspiración bárdica, el ataque furtivo o los dados de supremacía.",
+            "Identifier": "Este valor de escala del nivel actual estará disponible en una fórmula usando:<br><copyable-text>@scale.{class}.{identifier}</copyable-text> – fórmula completa (<code>4d6</code>)<br><copyable-text>@scale.{class}.{identifier}.die</copyable-text> – dado completo (<code>d6</code>)<br><copyable-text>@scale.{class}.{identifier}.number</copyable-text> – número de dados (<code>4</code>)<br><copyable-text>@scale.{class}.{identifier}.faces</copyable-text> – número de caras (<code>6</code>)",
+            "FIELDS": {
+              "faces": { "label": "Caras" },
+              "number": { "label": "Número" }
+            }
+          },
+          "Distance": {
+            "Label": "Distancia",
+            "Hint": "Úsalo para valores numéricos que representen una distancia, como la velocidad de movimiento sin armadura o el radio del aura de protección."
+          },
+          "Number": {
+            "Label": "Numérico",
+            "Hint": "Úsalo para valores puramente numéricos como el bonificador de daño de la furia o el número de usos por día."
+          },
+          "String": {
+            "Label": "Cualquier cosa",
+            "Hint": "Úsalo si no estás seguro del tipo de los valores de escala, o si el tipo no importa.",
+            "Identifier": "Este valor de escala del nivel actual estará disponible en una fórmula usando:<br><copyable-text>@scale.{class}.{identifier}</copyable-text>",
+            "FIELDS": { "value": { "label": "Valor" } }
+          }
+        }
+      },
+      "Size": {
+        "Title": "Tamaño",
+        "Hint": "Establece el tamaño de un personaje.",
+        "Action": { "SelectSize": "Seleccionar tamaño" },
+        "DefaultHint": {
+          "Multiple": "Elige tu tamaño entre {sizes}.",
+          "Single": "Tu tamaño es {size}."
+        },
+        "FIELDS": { "sizes": { "label": "Tamaños" } }
+      },
+      "SPELLCONFIG": {
+        "FIELDS": {
+          "spell": {
+            "label": "Detalles del conjuro",
+            "ability": { "label": "Característica" },
+            "method": { "label": "Método de lanzamiento de conjuros" },
+            "prepared": { "label": "Preparación" },
+            "uses": {
+              "max": { "label": "Usos" },
+              "per": { "label": "Período" },
+              "requireSlot": {
+                "label": "Requerir espacio",
+                "hint": "Requerir que se gaste un espacio de conjuro al usar los usos limitados. Si no está marcado, los usos serán usos gratuitos adicionales que no consumen un espacio."
+              }
+            }
+          }
+        },
+        "FreeCasting": "Lanzamiento gratuito"
+      },
+      "Subclass": {
+        "Title": "Subclase",
+        "Hint": "Especifica en qué nivel esta clase recibe su subclase.",
+        "Action": { "Select": "Seleccionar subclase" },
+        "Warning": { "InvalidType": "Solo pueden seleccionarse subclases." }
+      },
+      "Trait": {
+        "Title": "Rasgos",
+        "Hint": "Otorga a un personaje ciertos rasgos o dale la opción de seleccionar rasgos (como competencias, habilidades, idiomas).",
+        "Details": "Detalles del rasgo",
+        "TraitType": "Tipo de rasgo",
+        "ChoicesRemaining": "Selecciona {count} más {type}",
+        "Action": {
+          "AddChoice": "Añadir elección",
+          "RemoveChoice": "Eliminar elección",
+          "RemoveTrait": "Eliminar rasgo",
+          "SelectTrait": "Seleccionar rasgo"
+        },
+        "FIELDS": {
+          "allowReplacements": {
+            "label": "Permitir reemplazos",
+            "hint": "Si un rasgo ya está establecido en el actor, permitir que el jugador elija cualquier otro rasgo como reemplazo."
+          },
+          "choices": {
+            "label": "Elecciones",
+            "hint": "Los siguientes rasgos se presentarán como una elección al jugador.",
+            "FIELDS": {
+              "count": { "label": "Cantidad" },
+              "pool": { "label": "Rasgos" }
+            }
+          },
+          "grants": {
+            "label": "Garantizados",
+            "hint": "Los siguientes rasgos se otorgarán al personaje siempre que no posea ya ese rasgo."
+          },
+          "mode": { "label": "Modo" }
+        },
+        "Mode": {
+          "Default": {
+            "Label": "Predeterminado",
+            "Hint": "Ganar un rasgo o competencia."
+          },
+          "Expertise": {
+            "Label": "Pericia",
+            "Hint": "Ganar pericia en un rasgo en el que ya tengas competencia."
+          },
+          "Force": {
+            "Label": "Pericia forzada",
+            "Hint": "Ganar pericia en un rasgo independientemente de tu nivel de competencia anterior."
+          },
+          "Mastery": {
+            "Label": "Maestría",
+            "Hint": "Ganar maestría con un arma en la que ya tengas competencia."
+          },
+          "Upgrade": {
+            "Label": "Mejorar",
+            "Hint": "Ganar competencia en un rasgo a menos que ya la tengas; en ese caso, ganar pericia."
+          }
+        }
+      },
+      "AbilityScoreImprovement": {
+        "Title": "Mejora de puntuación de característica",
+        "TitleEpic": "Don épico",
+        "Hint": "Permitir al jugador aumentar una o más puntuaciones de característica o tomar una dote opcional.",
+        "Details": "Detalles de la mejora",
+        "LockedHint": "Las puntuaciones no se pueden modificar con una dote seleccionada.",
+        "PointsRemaining": {
+          "one": "{points} punto restante",
+          "other": "{points} puntos restantes"
+        },
+        "Action": { "Select": "Seleccionar dote" },
+        "CapDisplay": {
+          "one": "Máx. {points} punto por puntuación",
+          "other": "Máx. {points} puntos por puntuación"
+        },
+        "EffectTargetHint": "Esta puntuación está siendo modificada por un Efecto Activo. Su valor final será {value}.",
+        "Feat": {
+          "ASIName": "Dote de Mejora de puntuación de característica",
+          "Hint": "Suelta aquí una dote para elegirla en lugar de una mejora de puntuación de característica."
+        },
+        "FIELDS": {
+          "cap": {
+            "label": "Límite de puntos",
+            "hint": "Número máximo de puntos que un jugador puede asignar a una sola puntuación."
+          },
+          "fixed": {
+            "label": "Mejora fija",
+            "hint": "Características que mejoran en una cantidad fija y no se pueden mejorar manualmente durante el proceso."
+          },
+          "locked": {
+            "label": "Bloqueada",
+            "hint": "La característica no se puede mejorar.",
+            "locked": "La característica no se puede mejorar.",
+            "unlocked": "La característica puede mejorarse."
+          },
+          "max": {
+            "label": "Máximo",
+            "hint": "Aumentar la puntuación máxima por encima de lo permitido en el actor."
+          },
+          "points": {
+            "label": "Puntos",
+            "hint": "Número de puntos que se pueden asignar a cualquier puntuación de característica desbloqueada.",
+            "decrease": "Reducir puntos",
+            "increase": "Aumentar puntos"
+          },
+          "recommendation": {
+            "label": "Recomendación",
+            "hint": "Dote de Don épico recomendada por esta clase."
+          }
+        },
+        "Journal": {
+          "Name": "Mejora de puntuación de característica",
+          "DescriptionEpic": "<p>Obtienes una dote de Don épico u otra dote de tu elección para la que cumplas las condiciones.</p>",
+          "DescriptionEpicRecommendation": "<p>Obtienes una dote de Don épico u otra dote de tu elección para la que cumplas las condiciones. Se recomienda {recommendation}.</p>",
+          "DescriptionLegacy": "<p>Cuando alcanzas el nivel {firstLevelOrdinal}, y de nuevo en el nivel {otherLevelsOrdinal}, puedes aumentar en 2 una puntuación de característica de tu elección, o aumentar en 1 dos puntuaciones de característica de tu elección. Como siempre, no puedes aumentar una puntuación de característica por encima de {maxAbilityScore} usando este rasgo.</p><p>Usando la regla opcional de dotes, puedes renunciar a tomar este rasgo para tomar en su lugar una dote de tu elección.</p>",
+          "DescriptionModern": "<p>Obtienes la dote Mejora de puntuación de característica u otra dote de tu elección para la que cumplas las condiciones. Obtienes este rasgo de nuevo en los niveles {otherLevels} de {class}.</p>"
+        },
+        "Warning": { "Type": "Solo pueden seleccionarse rasgos con el tipo «feat» (dote)." }
+      }
+    }
+  }
+}

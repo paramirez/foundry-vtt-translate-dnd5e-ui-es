@@ -1,0 +1,127 @@
+{
+  "DND5E": {
+    "DURATION": {
+      "FIELDS": {
+        "duration": {
+          "label": "Duración",
+          "concentration": {
+            "label": "Concentración",
+            "hint": "La criatura debe mantener la concentración mientras esté activo."
+          },
+          "override": {
+            "label": "Anular duración",
+            "hint": "Usa estos valores de duración en lugar de los del ítem al usar esta actividad."
+          },
+          "special": {
+            "label": "Duración especial",
+            "hint": "Descripción de cualquier detalle especial de duración."
+          },
+          "units": {
+            "label": "Unidades de duración",
+            "hint": "Unidades usadas para medir la duración."
+          },
+          "value": {
+            "label": "Valor de duración",
+            "hint": "Valor de la duración en las unidades especificadas, si procede."
+          }
+        }
+      }
+    },
+    "EFFECT": {
+      "Action": {
+        "Create": "Crear efecto",
+        "Delete": "Eliminar efecto",
+        "Dissociate": "Disociar efecto"
+      },
+      "Empty": "No hay efectos asociados. Usa el botón <i class=\"fas fa-plus\"></i> de arriba para crear uno, o selecciona un efecto existente del menú desplegable.",
+      "Label": "Efectos disponibles",
+      "RIDER": {
+        "Activity": "Actividad de encantamiento acompañante",
+        "Effect": "Efecto de encantamiento acompañante"
+      }
+    },
+    "ENCHANT": {
+      "Title": "Encantar",
+      "Hint": "Aplica un encantamiento a un ítem que modifica sus estadísticas o funcionalidad.",
+      "DropArea": "Coloca aquí el ítem para encantarlo…",
+      "Enchanted": "{current} &sol; {max} encantados",
+      "SECTIONS": {
+        "Enchanting": "Encantamiento",
+        "Enchantments": "Encantamientos",
+        "Restrictions": "Restricciones"
+      },
+      "FIELDS": {
+        "effects": {
+          "element": {
+            "level": {
+              "label": "Límite de nivel",
+              "hint": "Rango de niveles requerido para usar este encantamiento.",
+              "max": { "label": "Nivel máximo" },
+              "min": { "label": "Nivel mínimo" }
+            },
+            "riders": {
+              "label": "Acompañantes",
+              "activity": {
+                "label": "Actividades adicionales",
+                "hint": "Estas actividades adicionales se añadirán al ítem encantado cuando se aplique este encantamiento, y se eliminarán al quitarlo."
+              },
+              "effect": {
+                "label": "Efectos adicionales",
+                "hint": "Estos efectos adicionales se añadirán al ítem encantado cuando se aplique este encantamiento, y se eliminarán al quitarlo."
+              },
+              "item": {
+                "label": "Ítems adicionales",
+                "hint": "Estos ítems adicionales se añadirán a la criatura cuando uno de sus ítems esté encantado, y se eliminarán si el encantamiento se quita."
+              }
+            }
+          }
+        },
+        "enchant": {
+          "label": "Configuración del encantamiento",
+          "identifier": {
+            "label": "Identificador de clase",
+            "hint": "Identificador usado para determinar si debe usarse el nivel de personaje o el de una clase concreta para los límites de nivel del encantamiento."
+          },
+          "self": {
+            "label": "Encantar automáticamente a sí mismo",
+            "hint": "Aplicar automáticamente el encantamiento seleccionado al ítem que contiene esta actividad al usarlo, y quitarlo al usarla de nuevo."
+          }
+        },
+        "restrictions": {
+          "label": "Restricciones",
+          "hint": "Restricciones sobre el tipo de ítem al que se puede aplicar este encantamiento.",
+          "allowMagical": {
+            "label": "Permitir mágicos",
+            "hint": "Permitir encantar ítems físicos que ya sean mágicos."
+          },
+          "categories": {
+            "label": "Categorías válidas",
+            "hint": "Categorías de ítem específicas a las que se puede aplicar este encantamiento."
+          },
+          "properties": {
+            "label": "Propiedades válidas",
+            "hint": "Propiedades de ítem específicas que deben estar presentes para poder aplicar este encantamiento."
+          },
+          "type": {
+            "label": "Tipo de ítem",
+            "hint": "Tipo de ítem al que se puede aplicar este encantamiento.",
+            "Any": "Cualquier tipo encantable"
+          }
+        }
+      },
+      "Enchantment": {
+        "Action": { "Create": "Crear encantamiento", "Delete": "Eliminar encantamiento" },
+        "Active": "{name} (activo)",
+        "Empty": "No hay encantamientos asociados. Usa el botón <i class=\"fas fa-plus\"></i> de arriba para crear uno, o selecciona un encantamiento existente del menú desplegable."
+      },
+      "Warning": {
+        "ConcentrationEnded": "No se puede aplicar este encantamiento porque la concentración ha terminado.",
+        "MissingProperty": "El ítem debe tener una de estas propiedades para poder encantarse: {validProperties}.",
+        "NoMagicalItems": "Los ítems que ya son mágicos no se pueden encantar.",
+        "NoTargetActor": "Encantar desde un compendio requiere un personaje asignado o un token seleccionado.",
+        "NoSubtype": "Solo los ítems {allowedType} pueden ser encantados por este encantamiento, pero este ítem no tiene un subtipo.",
+        "WrongType": "Los ítems {incorrectType} no pueden ser encantados por este encantamiento; solo se permiten ítems {allowedType}."
+      }
+    }
+  }
+}

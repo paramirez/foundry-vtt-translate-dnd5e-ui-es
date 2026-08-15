@@ -1,0 +1,26 @@
+{
+  "entries": {
+    "Appendix D: Rule References": {
+      "pages": {
+        "Acrobatics": { "name": "Acrobacias", "text": "<p><strong>Ejemplos:</strong> Mantenerte en pie en una situación complicada o realizar una acrobacia.</p>" },
+        "Animal Handling": { "name": "Trato con Animales", "text": "<p><strong>Ejemplos:</strong> Calmar o adiestrar a un animal, o conseguir que un animal se comporte de cierta manera.</p>" },
+        "Arcana": { "name": "Conocimiento arcano", "text": "<p><strong>Ejemplos:</strong> Recordar conocimientos sobre conjuros, objetos mágicos y los planos de existencia.</p>" },
+        "Athletics": { "name": "Atletismo", "text": "<p><strong>Ejemplos:</strong> Saltar más lejos de lo normal, mantenerte a flote en aguas agitadas o romper algo.</p>" },
+        "Deception": { "name": "Engaño", "text": "<p><strong>Ejemplos:</strong> Contar una mentira convincente o llevar un disfraz de manera convincente.</p>" },
+        "History": { "name": "Historia", "text": "<p><strong>Ejemplos:</strong> Recordar conocimientos sobre acontecimientos históricos, personajes, naciones y culturas.</p>" },
+        "Insight": { "name": "Perspicacia", "text": "<p><strong>Ejemplos:</strong> Discernir el estado de ánimo y las intenciones de una persona.</p>" },
+        "Intimidation": { "name": "Intimidación", "text": "<p><strong>Ejemplos:</strong> Imponerte o amenazar a alguien para que haga lo que quieres.</p>" },
+        "Investigation": { "name": "Investigación", "text": "<p><strong>Ejemplos:</strong> Encontrar información oscura en libros o deducir cómo funciona algo.</p>" },
+        "Medicine": { "name": "Medicina", "text": "<p><strong>Ejemplos:</strong> Diagnosticar una enfermedad o determinar qué mató a los recientemente fallecidos.</p>" },
+        "Nature": { "name": "Naturaleza", "text": "<p><strong>Ejemplos:</strong> Recordar conocimientos sobre el terreno, las plantas, los animales y el clima.</p>" },
+        "Perception": { "name": "Percepción", "text": "<p><strong>Ejemplos:</strong> Usando una combinación de sentidos, notar algo que es fácil pasar por alto.</p>" },
+        "Performance": { "name": "Interpretación", "text": "<p><strong>Ejemplos:</strong> Actuar, contar una historia, interpretar música o bailar.</p>" },
+        "Persuasion": { "name": "Persuasión", "text": "<p><strong>Ejemplos:</strong> Convencer a alguien de algo de manera honesta y cortés.</p>" },
+        "Religion": { "name": "Religión", "text": "<p><strong>Ejemplos:</strong> Recordar conocimientos sobre dioses, rituales religiosos y símbolos sagrados.</p>" },
+        "Sleight of Hand": { "name": "Juego de Manos", "text": "<p><strong>Ejemplos:</strong> Bolsiquear, ocultar un objeto que llevas en la mano o hacer juegos de manos.</p>" },
+        "Stealth": { "name": "Sigilo", "text": "<p><strong>Ejemplos:</strong> Pasar desapercibido moviéndote en silencio y escondiéndote tras las cosas.</p>" },
+        "Survival": { "name": "Supervivencia", "text": "<p><strong>Ejemplos:</strong> Seguir rastros, buscar comida, encontrar un sendero o evitar peligros naturales.</p>" }
+      }
+    }
+  }
+}

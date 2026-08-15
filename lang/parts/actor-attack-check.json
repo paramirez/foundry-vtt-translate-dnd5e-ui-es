@@ -1,0 +1,156 @@
+{
+  "DND5E": {
+    "ACTOR": {
+      "Warning": {
+        "CreateActor": "Debes tener permiso de «Crear nuevos actores» para invocar directamente desde un compendio.",
+        "InvalidItem": "Los ítems de tipo {itemType} no se pueden añadir a un {actorType}.",
+        "NoActor": "No se puede encontrar el actor con UUID «{uuid}» para invocar.",
+        "Singleton": "Solo se puede añadir un único {itemType} a un {actorType}."
+      }
+    },
+    "ATTACK": {
+      "Attack": { "mwak": "Ataque cuerpo a cuerpo", "rwak": "Ataque a distancia" },
+      "Classification": {
+        "Spell": "Conjuro",
+        "Unarmed": "Sin armas",
+        "Weapon": "Arma"
+      },
+      "FIELDS": {
+        "attack": {
+          "label": "Detalles del ataque",
+          "ability": {
+            "label": "Característica de ataque",
+            "hint": "Característica usada para hacer el ataque y determinar el daño. Disponible con @mod en las fórmulas."
+          },
+          "bonus": {
+            "label": "Bonificador para acertar",
+            "hint": "Bonificador añadido a la tirada para acertar del ataque."
+          },
+          "critical": {
+            "threshold": {
+              "label": "Umbral de crítico",
+              "hint": "Valor mínimo en el D20 necesario para obtener un golpe crítico."
+            }
+          },
+          "flat": {
+            "label": "Para acertar plano",
+            "hint": "Ignora el modificador de característica, la competencia y cualquier otro bonificador del actor, y solo usa el bonificador definido por la actividad al calcular para acertar."
+          },
+          "type": {
+            "label": "Tipo de ataque",
+            "value": {
+              "label": "Tipo de ataque",
+              "hint": "¿Es un ataque cuerpo a cuerpo o a distancia?"
+            },
+            "classification": {
+              "label": "Clasificación del ataque",
+              "hint": "¿Es un ataque sin armas, de arma o de conjuro?"
+            }
+          }
+        },
+        "damage": {
+          "label": "Daño del ataque",
+          "critical": {
+            "bonus": {
+              "label": "Daño crítico extra",
+              "hint": "Daño extra aplicado al obtener un crítico. Se suma al daño base o a la primera parte de daño."
+            }
+          },
+          "includeBase": {
+            "label": "Incluir el daño base",
+            "hint": "Incluye el daño base del ítem junto con las partes de daño adicionales."
+          },
+          "parts": {
+            "label": "Partes de daño",
+            "hint": "Partes de daño individuales para incluir en la tirada."
+          }
+        }
+      },
+      "Formatted": {
+        "2014": "Ataque {type} {classification}",
+        "2024": "Tirada de ataque {type}"
+      },
+      "Hint": "Haz una tirada de ataque y tira el daño.",
+      "Mode": {
+        "Label": "Modo de ataque",
+        "Offhand": "Mano torpe",
+        "OneHanded": "A una mano",
+        "Ranged": "A distancia",
+        "Thrown": "Arrojadiza",
+        "ThrownOffhand": "Lanzamiento con la mano torpe",
+        "TwoHanded": "A dos manos"
+      },
+      "Title": { "one": "Ataque", "other": "Ataques" },
+      "Type": { "Melee": "Cuerpo a cuerpo", "Ranged": "A distancia" },
+      "Warning": { "NoQuantity": "Se intentó atacar con un arma con cantidad cero." },
+      "Weapon": { "Melee": "Arma cuerpo a cuerpo", "Ranged": "Arma a distancia" }
+    },
+    "BONUSES": {
+      "FIELDS": {
+        "bonuses": {
+          "label": "Bonificadores globales",
+          "hint": "Bonificadores globales como fórmulas que se añaden a ciertas tiradas.",
+          "abilities": {
+            "label": "Bonificadores globales de característica",
+            "check": { "label": "Bonificador global de prueba de característica" },
+            "save": { "label": "Bonificador global de tirada de salvación" },
+            "skill": { "label": "Bonificador global de prueba de habilidad" }
+          },
+          "msak": {
+            "label": "Bonificadores de conjuro cuerpo a cuerpo",
+            "attack": { "label": "Bonificador de ataque de conjuro cuerpo a cuerpo" },
+            "damage": { "label": "Bonificador de daño de conjuro cuerpo a cuerpo" }
+          },
+          "mwak": {
+            "label": "Bonificadores de arma cuerpo a cuerpo",
+            "attack": { "label": "Bonificador de ataque de arma cuerpo a cuerpo" },
+            "damage": { "label": "Bonificador de daño de arma cuerpo a cuerpo" }
+          },
+          "rsak": {
+            "label": "Bonificadores de conjuro a distancia",
+            "attack": { "label": "Bonificador de ataque de conjuro a distancia" },
+            "damage": { "label": "Bonificador de daño de conjuro a distancia" }
+          },
+          "rwak": {
+            "label": "Bonificadores de arma a distancia",
+            "attack": { "label": "Bonificador de ataque de arma a distancia" },
+            "damage": { "label": "Bonificador de daño de arma a distancia" }
+          },
+          "spell": {
+            "label": "Bonificadores globales de conjuro",
+            "dc": { "label": "Bonificador global de CD de conjuro" }
+          }
+        }
+      }
+    },
+    "CHECK": {
+      "FIELDS": {
+        "check": {
+          "label": "Detalles de la prueba",
+          "ability": {
+            "label": "Característica de la prueba",
+            "hint": "Característica a usar al hacer la prueba."
+          },
+          "associated": {
+            "label": "Habilidades o herramientas asociadas",
+            "hint": "Presentar las pruebas de característica usando la competencia y los bonificadores de estas habilidades o herramientas."
+          },
+          "dc": {
+            "label": "Clase de Dificultad",
+            "calculation": {
+              "label": "Cálculo de la CD",
+              "hint": "Método o característica usados para calcular la Clase de Dificultad."
+            },
+            "formula": {
+              "label": "Fórmula de la CD",
+              "hint": "Fórmula personalizada o valor fijo para definir la CD de la prueba."
+            }
+          }
+        }
+      },
+      "Hint": "Solicita una prueba de característica posiblemente asistida por una habilidad o herramienta.",
+      "ThisTool": "Esta herramienta",
+      "Title": "Prueba"
+    }
+  }
+}

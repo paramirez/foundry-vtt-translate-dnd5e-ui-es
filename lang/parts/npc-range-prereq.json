@@ -1,0 +1,107 @@
+{
+  "DND5E": {
+    "NPC": {
+      "Label": "PNJ",
+      "ActionCostCounted": { "other": "Cuesta {number} acciones" },
+      "FIELDS": {
+        "attributes": {
+          "price": {
+            "label": "Coste",
+            "hint": "La tarifa de contratación por día, o el precio de compra del ganado.",
+            "denomination": { "label": "Denominación" },
+            "value": { "label": "Cantidad" }
+          }
+        },
+        "traits": {
+          "important": {
+            "label": "PNJ importante",
+            "hint": "Los PNJs importantes registran tiradas de muerte, Dados de Golpe y lealtad (si está activada). Cualquier PNJ con niveles de clase se considera importante independientemente de este ajuste."
+          }
+        }
+      },
+      "SECTIONS": {
+        "Actions": "Acciones",
+        "BonusActions": "Acciones Adicionales",
+        "LegendaryActions": "Acciones legendarias",
+        "MythicActions": "Acciones míticas",
+        "Reactions": "Reacciones",
+        "Traits": "Rasgos"
+      }
+    },
+    "NUMBER": {
+      "1": "uno",
+      "2": "dos",
+      "3": "tres",
+      "4": "cuatro",
+      "5": "cinco",
+      "6": "seis",
+      "7": "siete",
+      "8": "ocho",
+      "9": "nueve"
+    },
+    "ORDINAL": {
+      "one": "{number}.º",
+      "two": "{number}.º",
+      "few": "{number}.º",
+      "other": "{number}.º"
+    },
+    "RANGE": {
+      "FIELDS": {
+        "range": {
+          "label": "Alcance",
+          "long": {
+            "label": "Alcance largo",
+            "hint": "Alcance de ataque lejano del arma, si está presente en el arma."
+          },
+          "override": {
+            "label": "Anular alcance",
+            "hint": "Usa estos valores de alcance en lugar de los del ítem al usar esta actividad."
+          },
+          "reach": { "label": "Alcance" },
+          "special": {
+            "label": "Alcance especial",
+            "hint": "Descripción de cualquier detalle especial de alcance."
+          },
+          "units": {
+            "label": "Unidades de alcance",
+            "hint": "Unidades usadas para medir el alcance."
+          },
+          "value": {
+            "label": "Valor de alcance",
+            "hint": "Valor del alcance en las unidades especificadas, si procede."
+          }
+        }
+      },
+      "Formatted": {
+        "Range": "alcance {range}",
+        "Reach": "alcance {reach}"
+      }
+    },
+    "Prerequisites": {
+      "Header": "Requisitos del rasgo",
+      "FIELDS": {
+        "prerequisites": {
+          "label": "Requisitos",
+          "items": {
+            "label": "Ítems requeridos",
+            "hint": "Identificadores de los ítems que el personaje debe tener antes de seleccionar este ítem."
+          },
+          "level": {
+            "label": "Nivel requerido",
+            "hint": "Nivel de personaje o de clase requerido para seleccionar este rasgo al subir de nivel."
+          },
+          "repeatable": {
+            "label": "Repetible",
+            "hint": "Este rasgo puede elegirse más de una vez."
+          }
+        }
+      },
+      "Warning": {
+        "InvalidLevel": "debe ser al menos de nivel {level}",
+        "Message": "{actor} {requirements} para poder tomar este {type}.",
+        "MissingItem": "debe haber tomado antes {items}",
+        "NotRepeatable": "no debe haber tomado {name} antes"
+      }
+    }
+  }
+}

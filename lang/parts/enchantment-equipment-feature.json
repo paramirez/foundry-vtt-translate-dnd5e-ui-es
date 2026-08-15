@@ -1,0 +1,142 @@
+{
+  "DND5E": {
+    "ENCHANTMENT": {
+      "Label": "Encantamiento",
+      "Action": {
+        "Apply": "Aplicar encantamiento",
+        "Disable": "Desactivar encantamiento",
+        "Edit": "Editar encantamiento",
+        "Enable": "Activar encantamiento",
+        "Remove": "Quitar encantamiento"
+      },
+      "Category": {
+        "Active": "Encantamientos activos",
+        "General": "Encantamientos",
+        "Inactive": "Encantamientos inactivos"
+      },
+      "FIELDS": {
+        "enchantment": {
+          "label": "Configuración del encantamiento",
+          "items": {
+            "max": {
+              "label": "Límite de ítems",
+              "hint": "Fórmula para el número máximo de encantamientos de este tipo que pueden estar activos a la vez."
+            },
+            "period": {
+              "label": "Período de reemplazo",
+              "hint": "Con qué frecuencia pueden volver a vincularse los encantamientos de este tipo a otros ítems."
+            }
+          }
+        }
+      },
+      "Items": { "Entry": "{item} en <em>{actor}</em>" },
+      "Period": {
+        "AtWill": "A voluntad",
+        "LongRest": "Descanso Largo",
+        "Never": "Nunca",
+        "ShortRest": "Descanso Corto"
+      },
+      "Warning": {
+        "NotOnActor": "Los encantamientos solo pueden añadirse a ítems, no directamente a actores.",
+        "Override": "Este valor lo está modificando un Encantamiento y no se puede editar. Desactiva el encantamiento en la pestaña de efectos para editarlo."
+      }
+    },
+    "EQUIPMENT": {
+      "Type": {
+        "Clothing": { "Label": "Ropa" },
+        "Ring": { "Label": "Anillo" },
+        "Rod": { "Label": "Vara" },
+        "Trinket": { "Label": "Bagatela" },
+        "Vehicle": { "Label": "Equipo de vehículo" },
+        "Wand": { "Label": "Varita" },
+        "Wondrous": { "Label": "Objeto maravilloso" }
+      }
+    },
+    "ExperiencePoints": {
+      "Abbreviation": "PX",
+      "Boons": { "one": "{number} don", "other": "{number} dones" },
+      "Current": "PX actuales",
+      "Format": "{value} PX",
+      "Label": "Puntos de Experiencia",
+      "Pool": "Fondo de PX",
+      "Progress": "Progreso hacia el siguiente nivel",
+      "StatBlock": {
+        "Standard": "PX {value}",
+        "Lair": "PX {value}, o {lair} en la guarida"
+      },
+      "Value": "Valor de PX"
+    },
+    "Focus": {
+      "Label": "Foco de lanzamiento de conjuros",
+      "Arcane": "Foco Arcano",
+      "Druidic": "Foco Druídico",
+      "Holy": "Foco Sagrado"
+    },
+    "FEATURE": {
+      "FIELDS": {
+        "cover": {
+          "label": "Cobertura",
+          "hint": "Cobertura proporcionada a la tripulación por este rasgo de vehículo."
+        },
+        "properties": { "label": "Propiedades del rasgo" },
+        "requirements": { "label": "Requisitos" },
+        "type": { "label": "Tipo de rasgo" }
+      }
+    },
+    "Feature": {
+      "Background": "Rasgo de trasfondo",
+      "Class": {
+        "Label": "Rasgo de clase",
+        "ArcaneShot": "Disparo arcano",
+        "ArtificerInfusion": "Infusión de artífice",
+        "ArtificerPlan": "Plan de artífice",
+        "ChannelDivinity": "Canalizar Divinidad",
+        "DefensiveTactic": "Táctica defensiva",
+        "EldritchInvocation": "Invocación sobrenatural",
+        "ElementalDiscipline": "Disciplina elemental",
+        "FightingStyle": "Estilo de combate",
+        "HuntersPrey": "Presa del cazador",
+        "Ki": "Habilidad de Ki",
+        "Maneuver": "Maniobra",
+        "Metamagic": "Opción de Metamagia",
+        "Multiattack": "Ataque múltiple",
+        "PactBoon": "Don de pacto",
+        "PsionicPower": "Poder psiónico",
+        "Rune": "Runa",
+        "SuperiorHuntersDefense": "Defensa superior del cazador"
+      },
+      "Feat": {
+        "Label": "Dote",
+        "EpicBoon": "Dote de Don épico",
+        "FightingStyle": "Dote de Estilo de combate",
+        "General": "Dote general",
+        "Origin": "Dote de origen"
+      },
+      "Monster": "Rasgo de monstruo",
+      "Species": "Rasgo de especie",
+      "SpeciesLegacy": "Rasgo racial",
+      "SupernaturalGift": {
+        "Label": "Don sobrenatural",
+        "Blessing": "Bendición",
+        "Charm": "Sortilegio",
+        "EpicBoon": "Don épico"
+      },
+      "Vehicle": { "Label": "Rasgo de vehículo" }
+    },
+    "FORWARD": {
+      "Title": "Reenviar",
+      "Hint": "Desencadena otra actividad de este ítem con detalles de consumo y escalado diferentes.",
+      "FIELDS": { "activity": { "label": "Actividad desencadenada" } },
+      "Warning": { "NoActivity": "La actividad vinculada debe configurarse antes de poder usar la actividad Reenviar." }
+    },
+    "ENCOUNTER": {
+      "Action": { "AddCreature": "Añadir criatura", "Award": "Recompensar PX y monedas" },
+      "Difficulty": {
+        "high": "Dificultad alta",
+        "low": "Dificultad baja",
+        "moderate": "Dificultad moderada"
+      },
+      "Tab": { "Description": "Descripción", "Loot": "Botín", "Members": "Miembros" }
+    }
+  }
+}

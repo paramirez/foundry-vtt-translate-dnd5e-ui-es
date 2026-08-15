@@ -1,0 +1,113 @@
+{
+  "DND5E": {
+    "Group": {
+      "Action": {
+        "ChangePace": "Cambiar ritmo",
+        "Inventory": {
+          "Group": "Mostrar inventario del grupo",
+          "Vehicle": "Mostrar inventario del vehículo"
+        },
+        "Remove": "Quitar miembro",
+        "SetPrimaryVehicle": "Establecer vehículo principal",
+        "UnsetPrimaryVehicle": "Quitar vehículo principal",
+        "View": "Ver miembro"
+      },
+      "Config": {
+        "Art": {
+          "Label": "Arte de los miembros",
+          "portraits": "Retratos",
+          "tokens": "Tokens"
+        },
+        "Legend": "Opciones de la hoja de grupo"
+      },
+      "Challenge": "Desafío",
+      "Distribute": {
+        "noxp": "Distribuir monedas acumuladas",
+        "xp": "Distribuir PX y monedas acumulados"
+      },
+      "Member": { "one": "Miembro", "other": "Miembros" },
+      "PlaceMembers": "Colocar miembros",
+      "Primary": {
+        "Remove": "Quitar como grupo principal",
+        "Set": "Establecer como grupo principal"
+      },
+      "Type": "Tipo de grupo",
+      "TypeEncounter": "Encuentro",
+      "TypeGeneric": "Grupo",
+      "TypeParty": "Grupo",
+      "Vehicle": {
+        "Count": { "one": "Vehículo", "other": "Vehículos" },
+        "Primary": { "label": "Vehículo principal" }
+      },
+      "Warning": {
+        "PhysicalItemOnly": "Solo se admiten ítems físicos.",
+        "PlaceMembers": "Error al colocar los tokens en la escena."
+      }
+    },
+    "Habitat": {
+      "Categories": {
+        "Any": "Cualquiera",
+        "Arctic": "Ártico",
+        "Coastal": "Costero",
+        "Desert": "Desierto",
+        "Forest": "Bosque",
+        "Grassland": "Pradera",
+        "Hill": "Colina",
+        "Mountain": "Montaña",
+        "Planar": "Plano",
+        "Swamp": "Pantano",
+        "Underdark": "Infraoscuridad",
+        "Underwater": "Subacuático",
+        "Urban": "Urbano"
+      },
+      "Configuration": {
+        "Custom": "Personalizado",
+        "Label": "Hábitat",
+        "Legend": "Categorías",
+        "Subtype": "Subtipo de {type}",
+        "Title": "Configurar hábitat"
+      },
+      "Subtype": "{type} ({subtype})"
+    },
+    "Gear": {
+      "Action": { "Add": "Añadir al equipo", "Remove": "Quitar del equipo" },
+      "Label": "Equipo"
+    },
+    "LegendaryAction": {
+      "Label": "Acción legendaria",
+      "LabelPl": "Acciones legendarias",
+      "Max": "Acciones legendarias máximas",
+      "Remaining": "Acciones legendarias restantes",
+      "Spent": "Acciones legendarias gastadas",
+      "LairUses": "{normal} ({lair} en la guarida)",
+      "Ordinal": {
+        "one": "{n}.ª acción legendaria",
+        "two": "{n}.ª acción legendaria",
+        "few": "{n}.ª acción legendaria",
+        "other": "{n}.ª acción legendaria"
+      },
+      "Description": "Usos de acciones legendarias: {uses}. Inmediatamente después del turno de otra criatura, el {name} puede gastar un uso para realizar una de las siguientes acciones. El {name} recupera todos los usos gastados al comienzo de cada uno de sus turnos.",
+      "DescriptionLegacy": "El {name} puede realizar {usesNamed}, eligiendo entre las opciones siguientes. Solo se puede usar una opción de acción legendaria a la vez y solo al final del turno de otra criatura. El {name} recupera las acciones legendarias gastadas al comienzo de su turno."
+    },
+    "LegendaryResistance": {
+      "Label": "Resistencia legendaria",
+      "LabelPl": "Resistencias legendarias",
+      "Max": "Resistencias legendarias máximas",
+      "Remaining": "Resistencias legendarias restantes",
+      "Resisted": "Resistencia legendaria usada",
+      "Spent": "Resistencias legendarias gastadas",
+      "LairUses": "{normal}/día, o {lair}/día en la guarida",
+      "Ordinal": {
+        "one": "{n}.ª resistencia legendaria",
+        "two": "{n}.ª resistencia legendaria",
+        "few": "{n}.ª resistencia legendaria",
+        "other": "{n}.ª resistencia legendaria"
+      }
+    },
+    "LevelLimit": {
+      "Label": "Límite de nivel",
+      "Max": "Nivel máximo",
+      "Min": "Nivel mínimo"
+    }
+  }
+}

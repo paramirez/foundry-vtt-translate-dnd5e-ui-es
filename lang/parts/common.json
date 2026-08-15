@@ -1,0 +1,42 @@
+{
+  "COMMON": {
+    "AreYouSure": "¿Estás seguro?",
+    "Cancel": "Cancelar",
+    "Confirm": "Confirmar",
+    "Default": "Predeterminado",
+    "Delete": "Eliminar",
+    "No": "No",
+    "None": "Ninguno",
+    "Unknown": "Desconocido",
+    "Yes": "Sí"
+  },
+  "DOCUMENT": {
+    "DND5E": {
+      "Activity": "Actividad",
+      "Advancement": "Progresión",
+      "Warning": { "SelectType": "Debe seleccionarse el tipo de {name} para crearlo." }
+    }
+  },
+  "TYPES": {
+    "ChatMessage": {
+      "request": "Mensaje de solicitud",
+      "rest": "Mensaje de descanso",
+      "turn": "Mensaje de turno de combate",
+      "usage": "Mensaje de uso"
+    },
+    "RegionBehavior": {
+      "dnd5e": {
+        "difficultTerrain": "Terreno difícil",
+        "rotateArea": "Rotar área"
+      }
+    },
+    "HINTS": {
+      "RegionBehavior": {
+        "dnd5e": {
+          "difficultTerrain": "Marca una región como terreno difícil y configura su tipo y a quién afecta.",
+          "rotateArea": "Rota tokens, losetas, muros y otros objetos alrededor de un punto de pivote central."
+        }
+      }
+    }
+  }
+}

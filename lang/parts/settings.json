@@ -1,0 +1,203 @@
+{
+  "SETTINGS": {
+    "5eAutoCollapseCardL": "Contraer automáticamente las descripciones de las tarjetas de ítem en el registro de chat",
+    "5eAutoCollapseCardN": "Contraer tarjetas de ítem en el chat",
+    "5eAutoSpellTemplateL": "Al lanzar un conjuro, comienza por defecto el proceso para crear la Plantilla medida correspondiente, si la hay (requiere rol de jugador CONFIADO o superior)",
+    "5eAutoSpellTemplateN": "Colocar siempre la plantilla del conjuro",
+    "5eNoAdvancementsN": "Desactivar la automatización de subidas de nivel",
+    "5eNoAdvancementsL": "No preguntar por las elecciones de subida de nivel o de creación de personaje.",
+    "5eNoConcentrationN": "Desactivar el seguimiento de concentración",
+    "5eNoConcentrationL": "Desactivar el seguimiento automatizado de concentración del sistema.",
+    "5eGridAlignedSquareTemplatesL": "Cuando se crean plantillas cuadradas como resultado de lanzar un conjuro o usar un ítem, quedarán fijadas a la alineación de la cuadrícula y no se podrán rotar.",
+    "5eGridAlignedSquareTemplatesN": "Plantillas cuadradas alineadas a la cuadrícula",
+    "DND5E": {
+      "General": "General",
+      "AUTOMATION": {
+        "Movement": {
+          "Name": "Automatización de movimiento",
+          "Hint": "Configura la cantidad de automatización de movimiento que usa el sistema: automatización completa incluyendo bloqueo de tokens, automatización parcial solo del terreno difícil, o desactivada por completo.",
+          "Full": "Completa",
+          "NoBlocking": "Parcial",
+          "None": "Ninguna"
+        }
+      },
+      "BLOODIED": {
+        "Name": "Estado Ensangrentado",
+        "Hint": "Configura si el estado Ensangrentado se rastrea automáticamente y su visibilidad.",
+        "All": "Mostrar para aliados y enemigos",
+        "Player": "Mostrar solo para aliados",
+        "None": "No mostrar nunca"
+      },
+      "COLLAPSETRAYS": {
+        "Name": "Contraer bandejas en el chat",
+        "Hint": "Contraer automáticamente las bandejas de daño, impacto y efectos que aparecen en las tarjetas de chat.",
+        "Always": "Contraer todas",
+        "Older": "Contraer bandejas antiguas",
+        "Never": "Contraer tras su uso",
+        "Manual": "No contraer nunca"
+      },
+      "COMBAT": {
+        "Name": "Combate",
+        "Label": "Configurar combate",
+        "Hint": "Varias opciones de configuración que afectan al combate.",
+        "DexTiebreaker": {
+          "Name": "Desempate por Destreza",
+          "Hint": "Añadir la puntuación bruta de Destreza para desempatar la Iniciativa."
+        },
+        "InitiativeScore": {
+          "Name": "Puntuación de iniciativa",
+          "Hint": "Usar la puntuación de iniciativa de una criatura (10 + bonificador) en lugar de tirar la iniciativa.",
+          "All": "Usar la puntuación para todos",
+          "None": "Tirar siempre la iniciativa",
+          "NPCs": "Usar la puntuación para los PNJs del GM"
+        }
+      },
+      "CRITICAL": {
+        "Name": "Daño crítico",
+        "MaxDice": {
+          "Name": "Maximizar dados",
+          "Hint": "Hacer los golpes críticos más letales maximizando los valores de los dados de daño base."
+        },
+        "MultiplyModifiers": {
+          "Name": "Multiplicar modificadores",
+          "Hint": "Hacer los golpes críticos más letales multiplicando los modificadores no basados en dados, además de los dados tirados."
+        }
+      },
+      "DEFAULTSKILLS": {
+        "Name": "Habilidades predeterminadas",
+        "Hint": "Las habilidades predeterminadas que aparecen en las hojas de PNJ independientemente del nivel de competencia."
+      },
+      "LOYALTY": {
+        "Name": "Puntuación de lealtad",
+        "Hint": "Activar el seguimiento opcional de Lealtad."
+      },
+      "METRIC": {
+        "LengthUnits": {
+          "Name": "Usar unidades métricas de longitud",
+          "Hint": "Por defecto usa metros en lugar de pies para el movimiento y los sentidos."
+        },
+        "VolumeUnits": {
+          "Name": "Usar unidades métricas de volumen",
+          "Hint": "Por defecto usa litros en lugar de pies cúbicos para la capacidad de los contenedores."
+        },
+        "WeightUnits": {
+          "Name": "Usar unidades métricas de peso",
+          "Hint": "Reemplaza todas las referencias a lb por kg y actualiza los cálculos de carga para usar unidades métricas de peso."
+        }
+      },
+      "NPCS": {
+        "Name": "PNJs",
+        "AutoRecharge": {
+          "Name": "Recargar habilidades",
+          "Hint": "Tirar automáticamente la recarga de las habilidades de los PNJs al comienzo del turno del PNJ.",
+          "No": "No recargar automáticamente",
+          "Silent": "Recargar sin crear una tarjeta de chat",
+          "Yes": "Recargar y mostrar la tarjeta de chat"
+        },
+        "AutoRollNPCHP": {
+          "Name": "Puntos de Golpe",
+          "Hint": "Configura si se tiran los PG máximos de los PNJs al crear un token nuevo.",
+          "No": "No tirar",
+          "Silent": "Tirar sin crear una tarjeta de chat",
+          "Yes": "Tirar y crear una tarjeta de chat"
+        }
+      },
+      "THEME": {
+        "Name": "Tema",
+        "Hint": "Tema que se aplicará a la UI y a todas las hojas por defecto. Automático se determinará según el navegador o el sistema operativo."
+      },
+      "PERMISSIONS": {
+        "AllowRests": {
+          "Name": "Permitir descansos individuales",
+          "Hint": "Permitir a los jugadores descansar directamente desde la hoja de sus personajes. Cuando está desactivado, los jugadores solo podrán descansar cuando el GM haga una solicitud desde el grupo."
+        },
+        "AllowSummoning": {
+          "Name": "Permitir invocaciones",
+          "Hint": "Permitir a los jugadores usar habilidades de invocación para invocar actores. Los jugadores también deben tener el permiso principal Crear tokens."
+        },
+        "AllowTransformation": {
+          "Name": "Permitir transformación",
+          "Hint": "Permitir a los jugadores transformar sus propios actores. Los jugadores también deben tener los permisos principales Crear actores y Crear tokens."
+        }
+      },
+      "RULESVERSION": {
+        "Name": "Versión de reglas",
+        "Hint": "Cambia el manejo de varias reglas entre los conjuntos de reglas de 2024 y 2014.",
+        "Legacy": "Reglas legado (2014)",
+        "Modern": "Reglas modernas (2024)"
+      },
+      "VARIANT": {
+        "Name": "Reglas variantes",
+        "Label": "Configurar reglas variantes",
+        "Hint": "Activa y configura las variantes de reglas que ofrece el sistema.",
+        "AllowFeats": {
+          "Name": "Permitir dotes",
+          "Hint": "Permitir a los jugadores elegir una dote en lugar de tomar una mejora de puntuación de característica durante la progresión de clase al usar las reglas legado."
+        },
+        "CurrencyWeight": {
+          "Name": "Rastrear el peso de las monedas",
+          "Hint": "Las monedas llevadas afectan a la carga del personaje."
+        },
+        "Encumbrance": {
+          "Name": "Rastreo de carga",
+          "Hint": "Activar el rastreo automático de la carga y la aplicación de estados a los personajes que cargan demasiado.",
+          "None": "Ninguna",
+          "Normal": "Normal (capacidad de carga máxima)",
+          "Variant": "Variante (sobrecargado y muy sobrecargado)"
+        },
+        "HonorScore": {
+          "Name": "Puntuación de Honor",
+          "Hint": "Activar el uso de la puntuación de característica opcional Honor."
+        },
+        "LevelingMode": {
+          "Name": "Modo de subida de nivel",
+          "Hint": "Determina cómo obtienen los jugadores nuevos niveles.",
+          "NoXP": "Subida de nivel sin PX",
+          "XP": "Puntos de Experiencia",
+          "XPBoons": "Puntos de Experiencia con Dones épicos"
+        },
+        "ProficiencyModifier": {
+          "Name": "Variante de competencia",
+          "Hint": "Configura el bonificador por competencia para usar un bonificador fijo o una tirada de dados.",
+          "Bonus": "PHB: Bonificador (+2, +3, +4, +5, +6)",
+          "Dice": "DMG: Dados (1d4, 1d6, 1d8, 1d10, 1d12)"
+        },
+        "Rest": {
+          "Name": "Variante de descanso",
+          "Hint": "Configura qué variante de descanso debe usarse para las partidas de este sistema.",
+          "Epic": "Heroísmo épico (DL: 1 hora, DC: 1 minuto)",
+          "Gritty": "Realismo duro (DL: 7 días, DC: 8 horas)",
+          "Normal": "Manual del Jugador (DL: 8 horas, DC: 1 hora)"
+        },
+        "SanityScore": {
+          "Name": "Puntuación de Cordura",
+          "Hint": "Activar el uso de la puntuación de característica opcional Cordura."
+        }
+      },
+      "VISIBILITY": {
+        "Name": "Visibilidad",
+        "Label": "Configurar visibilidad",
+        "Hint": "Varias opciones de configuración que afectan a la visibilidad de los jugadores de cierta información que el DM puede querer mantener en secreto.",
+        "Attack": {
+          "Name": "Visibilidad de los resultados de ataque",
+          "Hint": "Controla la visibilidad de los resultados de las tiradas de ataque en las tarjetas de chat para los jugadores.",
+          "All": "Mostrar resultados y CAs objetivo",
+          "HideAC": "Mostrar solo los resultados",
+          "None": "Ocultar todo"
+        },
+        "Challenge": {
+          "Name": "Visibilidad de desafíos",
+          "Hint": "Controla qué CD de tirada son visibles para los jugadores y si se resaltan los éxitos y fracasos.",
+          "All": "Mostrar todo",
+          "None": "Ocultar todo",
+          "Player": "Mostrar solo las de otros jugadores"
+        },
+        "ItemDescriptions": {
+          "Name": "Ocultar descripciones de PNJs",
+          "Hint": "Ocultar las descripciones de los ítems de los PNJs a los jugadores cuando el DM las publica en el chat. Solo ocultará las descripciones de los ítems sin una Descripción de chat definida."
+        }
+      }
+    }
+  },
+  "SIDEBAR": { "SortModePriority": "Ordenar por prioridad" }
+}

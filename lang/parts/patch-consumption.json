@@ -1,0 +1,59 @@
+{
+  "DND5E": {
+    "CONSUMPTION": {
+      "FIELDS": {
+        "consumption": {
+          "label": "Consumo",
+          "scaling": {
+            "abbr": "Escalado",
+            "label": "Escalado de consumo",
+            "allowed": {
+              "label": "Permitir escalado",
+              "hint": "¿Puede una actividad que no esté en un conjuro activarse a niveles superiores?"
+            },
+            "max": {
+              "label": "Escalado máximo",
+              "hint": "Número máximo de niveles de escalado para este ítem, incluido el nivel base."
+            }
+          },
+          "spellSlot": {
+            "label": "Consumir espacio de conjuro",
+            "hint": "¿Debería usar esta actividad un espacio de conjuro para este conjuro?"
+          },
+          "targets": {
+            "label": "Objetivos de consumo",
+            "hint": "Objetivos de consumo posible cuando se activa esta actividad.",
+            "FIELDS": {
+              "type": {
+                "label": "Tipo de consumo",
+                "hint": "Tipo de objetivo de consumo."
+              },
+              "target": {
+                "label": "Objetivo de consumo",
+                "hint": "Objetivo específico a consumir."
+              },
+              "value": {
+                "label": "Cantidad consumida",
+                "hint": "Introduce un valor negativo para restaurar en lugar de consumir."
+              },
+              "scaling": {
+                "label": "Escalado de consumo",
+                "mode": {
+                  "label": "Modo de escalado",
+                  "hint": "Cómo debe escalarse el consumo."
+                },
+                "formula": {
+                  "label": "Fórmula de escalado",
+                  "hint": "Escalado personalizado de la cantidad consumida por nivel."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "LegendaryResistance": {
+      "Action": { "Resist": "Resistencia legendaria" }
+    }
+  }
+}

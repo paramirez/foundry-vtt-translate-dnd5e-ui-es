@@ -1,0 +1,38 @@
+{
+  "id": "translate-dnd5e-ui-es",
+  "title": "D&D 5e - UI en español (lang/es.json)",
+  "description": "Traduce la interfaz del sistema dnd5e al español (habilidades, características, atributos, hoja de personaje, ítems, conjuros, estados y diálogos) mediante lang/es.json.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "esmodules": [
+    "scripts/babele-register.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.1.1",
+          "verified": "5.2.5"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "param"
+    }
+  ],
+  "url": ""
+}

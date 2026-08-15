@@ -1,0 +1,280 @@
+{
+  "DND5E": {
+    "TARGET": {
+      "Action": { "PlaceTemplate": "Colocar Plantilla medida" },
+      "Count": { "Any": "Cualquiera", "Every": "Cada" },
+      "Formatted": "{count} {type}",
+      "FIELDS": {
+        "target": {
+          "label": "Objetivo",
+          "affects": {
+            "label": "Objetivos afectados",
+            "choice": {
+              "label": "Elegir objetivos",
+              "hint": "Al apuntar a un área, ¿puede el usuario elegir a quién afecta?"
+            },
+            "count": {
+              "label": "Número de objetivos",
+              "hint": "Número de objetivos individuales que pueden verse afectados."
+            },
+            "special": {
+              "label": "Apuntado especial",
+              "hint": "Descripción de cualquier detalle especial de apuntado."
+            },
+            "type": {
+              "label": "Tipo de objetivo",
+              "hint": "Tipo de objetivos que pueden verse afectados (p. ej. criaturas, objetos, espacios)."
+            }
+          },
+          "override": {
+            "label": "Anular objetivo",
+            "hint": "Usa estos valores de objetivo en lugar de los del ítem al usar esta actividad."
+          },
+          "prompt": {
+            "label": "Aviso de plantilla medida",
+            "hint": "¿Debería pedirse al jugador que coloque una plantilla medida? Los jugadores aún podrán colocar plantillas desde la tarjeta de chat si el aviso está desactivado."
+          },
+          "template": {
+            "label": "Área de efecto",
+            "contiguous": {
+              "label": "Áreas contiguas",
+              "hint": "¿Deben estar conectadas entre sí todas las áreas creadas?"
+            },
+            "count": {
+              "label": "Número de áreas",
+              "hint": "Número de áreas distintas que pueden apuntarse."
+            },
+            "height": {
+              "label": "Altura del área",
+              "hint": "Altura de un cilindro afectado, si procede."
+            },
+            "size": {
+              "label": "Tamaño del área",
+              "hint": "Tamaño del área de efecto en su eje principal."
+            },
+            "stationary": {
+              "label": "Estacionaria",
+              "hint": "La emanación no se puede mover una vez colocada."
+            },
+            "type": {
+              "label": "Tipo de área",
+              "hint": "Tipo de área de efecto apuntada."
+            },
+            "units": {
+              "label": "Unidades del área",
+              "hint": "Unidades usadas para medir los tamaños del área de efecto."
+            },
+            "width": {
+              "label": "Ancho del área",
+              "hint": "Ancho de una línea afectada, si procede."
+            }
+          }
+        }
+      },
+      "Type": {
+        "Ally": {
+          "Label": "Aliado",
+          "Counted": {
+            "any": "cualesquiera aliados",
+            "each": "cada aliado",
+            "every": "todos los aliados",
+            "one": "{number} aliado",
+            "other": "{number} aliados"
+          }
+        },
+        "Any": { "Label": "Cualquiera" },
+        "Circle": {
+          "Label": "Círculo",
+          "Counted": {
+            "one": "{number} círculo",
+            "other": "{number} círculos",
+            "oneSized": "{sizes} Círculo",
+            "otherSized": "{number} {sizes} Círculos"
+          }
+        },
+        "Cone": {
+          "Label": "Cono",
+          "Counted": {
+            "one": "{number} cono",
+            "other": "{number} conos",
+            "oneSized": "{sizes} Cono",
+            "otherSized": "{number} {sizes} Conos"
+          }
+        },
+        "Creature": {
+          "Label": "Criatura",
+          "Counted": {
+            "any": "cualesquiera criaturas",
+            "each": "cada criatura",
+            "every": "todas las criaturas",
+            "one": "{number} criatura",
+            "other": "{number} criaturas"
+          }
+        },
+        "CreatureOrObject": {
+          "Label": "Criatura u objeto",
+          "Counted": {
+            "any": "cualesquiera criaturas u objetos",
+            "each": "cada criatura u objeto",
+            "every": "todas las criaturas u objetos",
+            "one": "{number} criatura u objeto",
+            "other": "{number} criaturas u objetos"
+          }
+        },
+        "Cube": {
+          "Label": "Cubo",
+          "Counted": {
+            "one": "{number} cubo",
+            "other": "{number} cubos",
+            "oneSized": "{sizes} Cubo",
+            "otherSized": "{number} {sizes} Cubos"
+          }
+        },
+        "Cylinder": {
+          "Label": "Cilindro",
+          "Counted": {
+            "one": "{number} cilindro",
+            "other": "{number} cilindros",
+            "oneSized": "{sizes} Cilindro",
+            "otherSized": "{number} {sizes} Cilindros"
+          }
+        },
+        "Emanation": {
+          "Label": "Emanación",
+          "Counted": {
+            "one": "{number} emanación",
+            "other": "{number} emanaciones",
+            "oneSized": "{sizes} Emanación",
+            "otherSized": "{number} {sizes} Emanaciones"
+          }
+        },
+        "Enemy": {
+          "Label": "Enemigo",
+          "Counted": {
+            "any": "cualesquiera enemigos",
+            "each": "cada enemigo",
+            "every": "todos los enemigos",
+            "one": "{number} enemigo",
+            "other": "{number} enemigos"
+          }
+        },
+        "Line": {
+          "Label": "Línea",
+          "Counted": {
+            "one": "{number} línea",
+            "other": "{number} líneas",
+            "oneSized": "{sizes} Línea",
+            "otherSized": "{number} {sizes} Líneas"
+          }
+        },
+        "Object": {
+          "Label": "Objeto",
+          "Counted": {
+            "any": "cualesquiera objetos",
+            "each": "cada objeto",
+            "every": "todos los objetos",
+            "one": "{number} objeto",
+            "other": "{number} objetos"
+          }
+        },
+        "Radius": {
+          "Label": "Radio",
+          "Counted": {
+            "one": "{number} radio",
+            "other": "{number} radios",
+            "oneSized": "{sizes} Radio",
+            "otherSized": "{number} {sizes} Radios"
+          }
+        },
+        "Self": { "Label": "Uno mismo" },
+        "Space": {
+          "Label": "Espacio",
+          "Counted": {
+            "any": "cualesquiera espacios",
+            "each": "cada espacio",
+            "every": "todos los espacios",
+            "one": "{number} Espacio",
+            "other": "{number} Espacios"
+          }
+        },
+        "Sphere": {
+          "Label": "Esfera",
+          "Counted": {
+            "one": "{number} esfera",
+            "other": "{number} esferas",
+            "oneSized": "{sizes} Esfera",
+            "otherSized": "{number} {sizes} Esferas"
+          }
+        },
+        "Special": {
+          "Label": "{special}",
+          "Counted": {
+            "any": "cualquier {special}",
+            "each": "cada {special}",
+            "every": "cada {special}",
+            "one": "{number} {special}",
+            "other": "{number} {special}"
+          }
+        },
+        "Square": {
+          "Label": "Cuadrado",
+          "Counted": {
+            "one": "{number} cuadrado",
+            "other": "{number} cuadrados",
+            "oneSized": "{sizes} Cuadrado",
+            "otherSized": "{number} {sizes} Cuadrados"
+          }
+        },
+        "Target": {
+          "Label": "Objetivo",
+          "Counted": {
+            "any": "cualesquiera objetivos",
+            "each": "cada objetivo",
+            "every": "todos los objetivos",
+            "one": "{number} objetivo",
+            "other": "{number} objetivos"
+          }
+        },
+        "Wall": {
+          "Label": "Muro",
+          "Counted": {
+            "one": "{number} muro",
+            "other": "{number} muros",
+            "oneSized": "{sizes} Muro",
+            "otherSized": "{number} {sizes} Muros"
+          }
+        },
+        "WillingCreature": {
+          "Label": "Criatura voluntaria",
+          "Counted": {
+            "any": "cualesquiera criaturas voluntarias",
+            "each": "cada criatura voluntaria",
+            "every": "todas las criaturas voluntarias",
+            "one": "{number} criatura voluntaria",
+            "other": "{number} criaturas voluntarias"
+          }
+        }
+      },
+      "Warning": { "PlaceTemplate": "No se pudo colocar la plantilla medida." }
+    },
+    "Tokens": {
+      "NoneSelected": "Sin tokens seleccionados",
+      "NoneTargeted": "Sin tokens apuntados",
+      "Selected": "Seleccionados",
+      "Targeted": "Apuntados"
+    },
+    "TOOL": {
+      "SECTIONS": {
+        "Details": "Detalles de {label}",
+        "Bonuses": {
+          "Label": "Bonificadores de {label}",
+          "Hint": "Estos bonificadores se aplican a las pruebas hechas con {label}."
+        },
+        "Global": {
+          "Label": "Bonificadores globales",
+          "Hint": "Estos bonificadores se aplican a las pruebas hechas con cualquier herramienta."
+        }
+      }
+    }
+  }
+}
